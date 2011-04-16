@@ -1,0 +1,697 @@
+TiCampus
+v7
+r0
+t301978494.176265
+cCheck dependencies
+cCpResource build/Debug-iphoneos/iCampus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/Info.plist iCampus-Info.plist
+cCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+cCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.xib
+cCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.xib
+cCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.xib
+cProcessPCH /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampusDataModel.mom /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampusDataModel.xcdatamodel
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/main.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampusAppDelegate.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DataInitializer.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayNavigationController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/Evento.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/EventDetail.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayViewController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/main.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus normal armv6
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampusAppDelegate.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DataInitializer.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayNavigationController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/Evento.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/EventDetail.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayViewController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus normal armv7
+cCreateUniversalBinary /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus normal "armv6 armv7"
+cGenerateDSYMFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app.dSYM /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus
+cProcessProductPackaging "/Users/danieldeaquino/Library/MobileDevice/Provisioning Profiles/9D2172FA-EC88-41C5-8FE5-0FA993F15EDD.mobileprovision" /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/embedded.mobileprovision
+cTouch /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent
+cCodeSign /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C05C1B10000000000000110
+t1275445681
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004BF4B7F900000000000001A7
+t1274329081
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004BF4B7F900000000000001E5
+t1274329081
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFE083F00000000002F6980
+t1274939455
+s3107200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFE082E000000000000046B
+t1274939438
+s1131
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C04711400000000000009CD
+t1275359508
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471FC0000000002D563E0
+t1275359740
+s47539168
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m
+c000000004C4CB172000000000000014C
+t1280094578
+s332
+i"Evento.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.h
+c000000004C4674020000000000000139
+t1279685634
+s313
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m
+c000000004C4E56D60000000000001263
+t1280202454
+s4707
+i"DataInitializer.h"
+i"Evento.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.h
+c000000004C4B2DCF00000000000001F9
+t1279995343
+s505
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"DayViewController.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m
+c000000004C4E4FC20000000000000838
+t1280200642
+s2104
+i"DayNavigationController.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.xib
+c000000004C4B61850000000000003E23
+t1280008581
+s15907
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.h
+c000000004C4B9362000000000000012C
+t1280021346
+s300
+i<UIKit/UIKit.h>
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m
+c000000004C4E5E3B0000000000000E93
+t1280204347
+s3731
+i"DayViewController.h"
+i"Evento.h"
+i"DayNavigationController.h"
+i"EventDetail.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.xib
+c000000004C4B2E750000000000004219
+t1279995509
+s16921
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.h
+c000000004C4E5C740000000000000344
+t1280203892
+s836
+i<UIKit/UIKit.h>
+i"Evento.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m
+c000000004C4E5EC500000000000009B7
+t1280204485
+s2487
+i"EventDetail.h"
+i"Evento.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.xib
+c000000004C4E59FE00000000000072CA
+t1280203262
+s29386
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.h
+c000000004C4E51F50000000000000495
+t1280201205
+s1173
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"DataInitializer.h"
+i"DayNavigationController.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m
+c000000004C4E5ECC0000000000001D5C
+t1280204492
+s7516
+i"iCampusAppDelegate.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Evento.h
+c000000004C4CB1620000000000000268
+t1280094562
+s616
+i<CoreData/CoreData.h>
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+c000000004C4E53B10000000000009996
+t1280201649
+s39318
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app
+t1280285694
+s476
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app.dSYM
+t1280285692
+s102
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/DayNavigationController.nib
+t1280285683
+s663
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/DayViewController.nib
+t1280285685
+s979
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/EventDetail.nib
+t1280285685
+s2258
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/Info.plist
+t1280285677
+s708
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/MainWindow.nib
+t1280285683
+s2824
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/PkgInfo
+t1280285677
+s8
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/ResourceRules.plist
+t1280285677
+s485
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/embedded.mobileprovision
+t1280285692
+s7160
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus
+t1280285692
+s93100
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampusDataModel.mom
+t1280285689
+s1853
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DataInitializer.o
+t1280285690
+s23004
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayNavigationController.o
+t1280285690
+s46140
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayViewController.o
+t1280285690
+s48580
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/EventDetail.o
+t1280285690
+s51892
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/Evento.o
+t1280285690
+s5672
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus
+t1280285692
+s43948
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus.LinkFileList
+c000000004C4F9BEC0000000000000416
+t1280285676
+s1046
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampusAppDelegate.o
+t1280285690
+s62276
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/main.o
+t1280285690
+s6488
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DataInitializer.o
+t1280285690
+s22828
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayNavigationController.o
+t1280285691
+s46032
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayViewController.o
+t1280285691
+s48432
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/EventDetail.o
+t1280285691
+s51636
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/Evento.o
+t1280285691
+s5672
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus
+t1280285692
+s43948
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus.LinkFileList
+c000000004C4F9BEC0000000000000416
+t1280285676
+s1046
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampusAppDelegate.o
+t1280285690
+s62084
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/main.o
+t1280285690
+s6472
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent
+t1280285692
+s388
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampusDataModel.xcdatamodel
+c000000004C4F987B0000000000000088
+t1280284795
+s136
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch
+c000000004C3D32D200000000000000B7
+t1279079122
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m
+c000000004C3D32D20000000000000168
+t1279079122
+s360
+i<UIKit/UIKit.h>
+
+N/Users/danieldeaquino/Library/MobileDevice/Provisioning Profiles/9D2172FA-EC88-41C5-8FE5-0FA993F15EDD.mobileprovision
+c000000004C2819810000000000001BF8
+t1277696385
+s7160
+
+N/var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch.gch
+t1280285689
+s9831984
+
+N/var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch.gch
+t1280285689
+s10290736
+
+NiCampus-Info.plist
+c000000004C4F9BE3000000000000037D
+t1280285667
+s893
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301978476#301978476#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCodeSign /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app
+s301978492.335103
+e301978494.176157
+r1
+xCodeSign
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app
+lSLF07#2@41"CodeSign build/Debug-iphoneos/iCampus.app301978492#301978494#0(0"0(0#0#95"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app8602195232#747"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Daniel Deaquino (38LQ2W4Q6X)" --resource-rules=/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/ResourceRules.plist --entitlements /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DataInitializer.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978490.265264
+e301978490.397588
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DataInitializer.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m301978490#301978490#0(0"0(0#0#88"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m8605587648#2018"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DataInitializer.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayNavigationController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978490.307504
+e301978490.492951
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayNavigationController.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m301978490#301978490#0(0"0(0#0#96"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m8610370336#2034"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayNavigationController.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayViewController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978490.493036
+e301978490.632049
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayViewController.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m301978490#301978490#0(0"0(0#0#90"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m8609047360#2022"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/DayViewController.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/EventDetail.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978490.491645
+e301978490.675376
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/EventDetail.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m301978490#301978490#0(0"0(0#0#84"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m8610104960#2010"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/EventDetail.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/Evento.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978490.397708
+e301978490.491522
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/Evento.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m301978490#301978490#0(0"0(0#0#82"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m8609016768#2003"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/Evento.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampusAppDelegate.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978489.873778
+e301978490.307391
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampusAppDelegate.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m301978489#301978490#0(0"0(0#0#91"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m8608898176#2024"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampusAppDelegate.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/main.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978489.656844
+e301978490.265154
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/main.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m301978489#301978490#0(0"0(0#0#69"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m8609543104#1988"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DataInitializer.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978490.827708
+e301978490.923432
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DataInitializer.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m301978490#301978490#0(0"0(0#0#88"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m8605369600#2018"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DataInitializer.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DataInitializer.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayNavigationController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978490.923544
+e301978491.061655
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayNavigationController.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m301978490#301978491#0(0"0(0#0#96"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m8601390176#2034"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayNavigationController.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayViewController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978491.270949
+e301978491.403495
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayViewController.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m301978491#301978491#0(0"0(0#0#90"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m8609638272#2022"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/DayViewController.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/EventDetail.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978491.141530
+e301978491.270836
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/EventDetail.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m301978491#301978491#0(0"0(0#0#84"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m8608872416#2010"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/EventDetail.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/Evento.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978491.061877
+e301978491.141417
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/Evento.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m301978491#301978491#0(0"0(0#0#82"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m8609471040#2003"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/../Evento.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/Evento.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampusAppDelegate.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978490.702726
+e301978490.827591
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampusAppDelegate.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m301978490#301978490#0(0"0(0#0#91"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m8606558336#2024"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampusAppDelegate.o0#
+
+CCompileC build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/main.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978490.632174
+e301978490.702609
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/main.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m301978490#301978490#0(0"0(0#0#69"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m8609574976#1988"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.xib
+s301978477.135203
+e301978484.175071
+r1
+xCompileXIB
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.xib
+lSLF07#2@46"CompileXIB Classes/DayNavigationController.xib301978477#301978484#0(0"0(0#0#98"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.xib8606674144#648"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/DayNavigationController.nib /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayNavigationController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.xib
+s301978484.175199
+e301978485.808172
+r1
+xCompileXIB
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.xib
+lSLF07#2@40"CompileXIB Classes/DayViewController.xib301978484#301978485#0(0"0(0#0#92"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.xib8606191008#636"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/DayViewController.nib /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/DayViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.xib
+s301978484.119080
+e301978486.192064
+r1
+xCompileXIB
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.xib
+lSLF07#2@34"CompileXIB Classes/EventDetail.xib301978484#301978486#0(0"0(0#0#86"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.xib8607993088#624"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/EventDetail.nib /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/EventDetail.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+s301978477.133773
+e301978484.118923
+r1
+xCompileXIB
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib301978477#301978484#0(0"0(0#0#77"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib8608180032#614"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/MainWindow.nib /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCpResource build/Debug-iphoneos/iCampus.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s301978476.894299
+e301978477.133564
+r1
+xCpResource
+xbuild/Debug-iphoneos/iCampus.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist301978476#301978477#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8600487840#528"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app0#
+
+CCreateUniversalBinary /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus normal "armv6 armv7"
+s301978492.070560
+e301978492.195373
+r1
+xCreateUniversalBinary
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus
+xnormal
+xarmv6 armv7
+lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/iCampus.app/iCampus normal "armv6 armv7"301978492#301978492#0(0"0(0#0#74"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/armv6 armv78605367904#614"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus -output /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus0#
+
+CDataModelCompile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampusDataModel.mom /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampusDataModel.xcdatamodel
+s301978489.655879
+e301978489.873659
+r1
+xDataModelCompile
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampusDataModel.mom
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampusDataModel.xcdatamodel
+lSLF07#2@99"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampusDataModel.xcdatamodel301978489#301978489#0(0"0(0#0#91"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampusDataModel.xcdatamodel8605380704#431"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampusDataModel.xcdatamodel /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampusDataModel.mom0#
+
+CGenerateDSYMFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app.dSYM /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus
+s301978492.195559
+e301978492.259890
+r1
+xGenerateDSYMFile
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app.dSYM
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus
+lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/iCampus.app.dSYM build/Debug-iphoneos/iCampus.app/iCampus301978492#301978492#0(0"0(0#0#103"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus8605295776#434"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/iCampus -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app.dSYM0#
+
+CLd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus normal armv6
+s301978490.675483
+e301978492.035176
+r1
+xLd
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus
+xnormal
+xarmv6
+lSLF07#2@145"Link /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus301978490#301978492#0(0"0(0#0#0"8608914656#999"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -filelist /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv6/iCampus0#
+
+CLd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus normal armv7
+s301978491.403631
+e301978492.070409
+r1
+xLd
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus
+xnormal
+xarmv7
+lSLF07#2@145"Link /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus301978491#301978492#0(0"0(0#0#0"8608147712#999"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -filelist /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/Objects-normal/armv7/iCampus0#
+
+CProcessInfoPlistFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/Info.plist iCampus-Info.plist
+s301978476.918505
+e301978477.061286
+r1
+xProcessInfoPlistFile
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/Info.plist
+xiCampus-Info.plist
+lSLF07#2@26"Process iCampus-Info.plist301978476#301978477#0(0"0(0#0#81"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus-Info.plist8600183360#658"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iCampus-Info.plist -genpkginfo /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/ResourceRules.plist -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/Info.plist0#
+
+CProcessPCH /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s301978486.192200
+e301978489.504363
+r1
+xProcessPCH
+x/var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch.gch
+xiCampus_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile iCampus_Prefix.pch301978486#301978489#0(0"0(0#0#81"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch8605474528#1862"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv6 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch -o /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dktspwgofuzmuxfrfpptogrqostu/iCampus_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s301978486.193221
+e301978489.655768
+r1
+xProcessPCH
+x/var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch.gch
+xiCampus_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile iCampus_Prefix.pch301978486#301978489#0(0"0(0#0#81"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch8609818656#1862"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources/armv7 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/DerivedSources -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch -o /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-dslhilwlquhtpnfttrgnuidrktxq/iCampus_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/danieldeaquino/Library/MobileDevice/Provisioning Profiles/9D2172FA-EC88-41C5-8FE5-0FA993F15EDD.mobileprovision" /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/embedded.mobileprovision
+s301978492.260010
+e301978492.307733
+r1
+xProcessProductPackaging
+x/Users/danieldeaquino/Library/MobileDevice/Provisioning Profiles/9D2172FA-EC88-41C5-8FE5-0FA993F15EDD.mobileprovision
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/embedded.mobileprovision
+lSLF07#2@201"ProcessProductPackaging "/Users/danieldeaquino/Library/MobileDevice/Provisioning Profiles/9D2172FA-EC88-41C5-8FE5-0FA993F15EDD.mobileprovision" build/Debug-iphoneos/iCampus.app/embedded.mobileprovision301978492#301978492#0(0"0(0#0#120"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/embedded.mobileprovision8609028608#480"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/danieldeaquino/Library/MobileDevice/Provisioning Profiles/9D2172FA-EC88-41C5-8FE5-0FA993F15EDD.mobileprovision" -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent
+s301978492.311885
+e301978492.334976
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent
+lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent301978492#301978492#0(0"0(0#0#125"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent8605545184#480"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphoneos/iCampus.build/iCampus.xcent0#
+
+CTouch /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app
+s301978492.307919
+e301978492.311768
+r1
+xTouch
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app
+lSLF07#2@101"Touch /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app301978492#301978492#0(0"0(0#0#0"8605987840#312"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphoneos/iCampus.app0#
+

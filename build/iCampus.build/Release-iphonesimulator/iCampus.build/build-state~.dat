@@ -1,0 +1,1278 @@
+TiCampus
+v7
+r0
+t302939362.052874
+cCheck dependencies
+cProcessInfoPlistFile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/Info.plist" iCampus-Info.plist
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/MainWindow.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.xib"
+cCpResource build/Release-iphonesimulator/iCampus.app/events.png Resources/Images/events.png
+cCpResource build/Release-iphonesimulator/iCampus.app/left_arrow.png Resources/Images/left_arrow.png
+cCpResource build/Release-iphonesimulator/iCampus.app/right_arrow.png Resources/Images/right_arrow.png
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarViewController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarScrollViewController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DayView/CalendarDayViewController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DaySelector/DaySelectorViewController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.xib"
+cCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.xib"
+cCpResource build/Release-iphonesimulator/iCampus.app/agendado.jpeg agendado.jpeg
+cCpResource build/Release-iphonesimulator/iCampus.app/category.png category.png
+cCpResource build/Release-iphonesimulator/iCampus.app/MyEvents.png MyEvents.png
+cCpResource build/Release-iphonesimulator/iCampus.app/stage.png stage.png
+cProcessPCH /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampusDataModel.mom" "/Users/dequis/Desktop/iCampus 9/iCampus/iCampusDataModel.xcdatamodel"
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/main.o "/Users/dequis/Desktop/iCampus 9/iCampus/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DataInitializer.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/Evento.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/../Evento.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventDetail.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarScrollViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayView.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayEventView.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaySelectorViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarEvent.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaysListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoriesListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoryNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlaceNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlacesListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/MyEventsNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus" normal i386
+cGenerateDSYMFile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app.dSYM" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus"
+cTouch "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C54C8A90000000000000132
+t1280624809
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BFDFEB400000000001CFA90
+t1274937012
+s1899152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BFDFEA8000000000000046B
+t1274937000
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIView.h
+c000000004C0470BB00000000000038DB
+t1275359419
+s14555
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/../Evento.m
+c000000004C4CB172000000000000014C
+t1280094578
+s332
+i"Evento.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.h
+c000000004C536F990000000000000145
+t1280536473
+s325
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m
+c000000004C53D2C40000000000000B32
+t1280561860
+s2866
+i"CategoriesListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.xib
+c000000004C536B280000000000001C9F
+t1280535336
+s7327
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.h
+c000000004C5629C90000000000000321
+t1280715209
+s801
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"CategoriesListViewController.h"
+i"EventListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m
+c000000004C562A2A00000000000010AE
+t1280715306
+s4270
+i"CategoryNavigationController.h"
+i"CategoriesListViewController.h"
+i"EventListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.xib
+c000000004C536D0A000000000000188F
+t1280535818
+s6287
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.h
+c000000004C55F0E1000000000000022D
+t1280700641
+s557
+i<Foundation/Foundation.h>
+i"Evento.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.m
+c000000004C55F09C0000000000000180
+t1280700572
+s384
+i"CalendarEvent.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.h
+c000000004C55F9790000000000000278
+t1280702841
+s632
+i<UIKit/UIKit.h>
+i"CalendarDayViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.m
+c000000004C56061100000000000008D4
+t1280706065
+s2260
+i"CalendarScrollViewController.h"
+i"CalendarDayViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.h
+c000000004C5580D200000000000002A3
+t1280671954
+s675
+i<UIKit/UIKit.h>
+i"DaySelectorViewController.h"
+i"CalendarScrollViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.m
+c000000004C5649F500000000000009BE
+t1280723445
+s2494
+i"CalendarViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.h
+c000000004C557DAE00000000000002FC
+t1280671150
+s764
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m
+c000000004C564AE000000000000012C0
+t1280723680
+s4800
+i"DaySelectorViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.h
+c000000004C562F160000000000000342
+t1280716566
+s834
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m
+c000000004C56359E0000000000001225
+t1280718238
+s4645
+i"CalendarDayView.h"
+i"DayEventView.h"
+i"CalendarEvent.h"
+i"Evento.h"
+i<UIKit/UIView.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.h
+c000000004C55F9B800000000000001A8
+t1280702904
+s424
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m
+c000000004C5616D200000000000006B5
+t1280710354
+s1717
+i"CalendarDayViewController.h"
+i"CalendarDayView.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.h
+c000000004C5600DA0000000000000259
+t1280704730
+s601
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Evento.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.m
+c000000004C560E030000000000000D0E
+t1280708099
+s3342
+i"DayEventView.h"
+i"EventDetail.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.h
+c000000004C4674020000000000000139
+t1279685634
+s313
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.m
+c000000004C56512A000000000002C3C4
+t1280725290
+s181188
+i"DataInitializer.h"
+i"Evento.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.h
+c000000004C5630EC0000000000000321
+t1280717036
+s801
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"EventListViewController.h"
+i"DaysListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m
+c000000004C5654C00000000000000F79
+t1280726208
+s3961
+i"DayNavigationController.h"
+i"DaysListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.xib
+c000000004C536E4C0000000000003DCD
+t1280536140
+s15821
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.h
+c000000004C562169000000000000012B
+t1280713065
+s299
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m
+c000000004C56216900000000000007C3
+t1280713065
+s1987
+i"DaysListViewController.h"
+i"DayNavigationController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.xib
+c000000004C50EBD90000000000001C8D
+t1280371673
+s7309
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.h
+c000000004C53B11800000000000003CE
+t1280553240
+s974
+i<UIKit/UIKit.h>
+i"Evento.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m
+c000000004C563CB4000000000000093F
+t1280720052
+s2367
+i"EventDetail.h"
+i"Evento.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.xib
+c000000004C563C5D00000000000085C5
+t1280719965
+s34245
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.h
+c000000004C5635D00000000000000141
+t1280718288
+s321
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m
+c000000004C5648590000000000000D66
+t1280723033
+s3430
+i"EventListViewController.h"
+i"Evento.h"
+i"DayNavigationController.h"
+i"EventDetail.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.xib
+c000000004C536E4C00000000000041BE
+t1280536140
+s16830
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.h
+c000000004C5649AD00000000000002A9
+t1280723373
+s681
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"CalendarViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.m
+c000000004C5649AA000000000000080E
+t1280723370
+s2062
+i"MyEventsNavigationController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.h
+c000000004C562A590000000000000301
+t1280715353
+s769
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"PlacesListViewController.h"
+i"EventListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m
+c000000004C562A750000000000001121
+t1280715381
+s4385
+i"PlaceNavigationController.h"
+i"PlacesListViewController.h"
+i"EventListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.xib
+c000000004C537D600000000000001886
+t1280540000
+s6278
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.h
+c000000004C5382DA0000000000000135
+t1280541402
+s309
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m
+c000000004C53D2C20000000000000773
+t1280561858
+s1907
+i"PlacesListViewController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.xib
+c000000004C537DF30000000000001C93
+t1280540147
+s7315
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.h
+c000000004C56216900000000000007B0
+t1280713065
+s1968
+i<UIKit/UIKit.h>
+i<CoreData/CoreData.h>
+i"DataInitializer.h"
+i"DayNavigationController.h"
+i"CategoryNavigationController.h"
+i"PlaceNavigationController.h"
+i"MyEventsNavigationController.h"
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.m
+c000000004C56553A0000000000002183
+t1280726330
+s8579
+i"iCampusAppDelegate.h"
+i<CoreData/CoreData.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Evento.h
+c000000004C4CB1620000000000000268
+t1280094562
+s616
+i<CoreData/CoreData.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/MainWindow.xib
+c000000004C564BC4000000000000D844
+t1280723908
+s55364
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/MyEvents.png
+c000000004B832FCE000000000000010E
+t1266888654
+s270
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarScrollViewController.xib
+c000000004C2D66510000000000003B20
+t1278043729
+s15136
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarViewController.xib
+c000000004C1E4A940000000000004DCD
+t1277053588
+s19917
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DaySelector/DaySelectorViewController.xib
+c000000004C560F2A000000000000645A
+t1280708394
+s25690
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DayView/CalendarDayViewController.xib
+c000000004C56130900000000000115BD
+t1280709385
+s71101
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/events.png
+c000000004A3E753400000000000000DC
+t1245607220
+s220
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/left_arrow.png
+c000000004C31163E0000000000000F03
+t1278285374
+s3843
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/right_arrow.png
+c000000004C3116530000000000000F08
+t1278285395
+s3848
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/agendado.jpeg
+c000000004C5643BE0000000000000144
+t1280721854
+s324
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app
+t1281246562
+s884
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app.dSYM
+t1281246562
+s102
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CalendarDayViewController.nib
+t1281246556
+s6374
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CalendarScrollViewController.nib
+t1281246555
+s846
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CalendarViewController.nib
+t1281246555
+s1121
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CategoriesListViewController.nib
+t1281246557
+s979
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CategoryNavigationController.nib
+t1281246557
+s764
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/DayNavigationController.nib
+t1281246554
+s663
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/DaySelectorViewController.nib
+t1281246556
+s2268
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/DaysListViewController.nib
+t1281246556
+s979
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/EventDetail.nib
+t1281246555
+s2762
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/EventListViewController.nib
+t1281246555
+s979
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/Info.plist
+t1281246554
+s573
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/MainWindow.nib
+t1281246554
+s3537
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/MyEvents.png
+t1281246557
+s270
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/PkgInfo
+t1281246554
+s8
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/PlaceNavigationController.nib
+t1281246557
+s764
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/PlacesListViewController.nib
+t1281246557
+s979
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/agendado.jpeg
+t1281246557
+s324
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/category.png
+t1281246557
+s342
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/events.png
+t1281246555
+s220
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus
+t1281246561
+s348068
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampusDataModel.mom
+t1281246558
+s1857
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/left_arrow.png
+t1281246555
+s3843
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/right_arrow.png
+t1281246555
+s3848
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/stage.png
+t1281246557
+s293
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayView.o
+t1281246560
+s54860
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayViewController.o
+t1281246560
+s39652
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarEvent.o
+t1281246560
+s14940
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarScrollViewController.o
+t1281246559
+s44736
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarViewController.o
+t1281246559
+s43056
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoriesListViewController.o
+t1281246560
+s40544
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoryNavigationController.o
+t1281246561
+s52904
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DataInitializer.o
+t1281246561
+s331408
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayEventView.o
+t1281246560
+s52108
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayNavigationController.o
+t1281246559
+s55096
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaySelectorViewController.o
+t1281246560
+s50292
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaysListViewController.o
+t1281246560
+s40296
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventDetail.o
+t1281246559
+s54492
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventListViewController.o
+t1281246559
+s51944
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/Evento.o
+t1281246559
+s5468
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/MyEventsNavigationController.o
+t1281246561
+s48972
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlaceNavigationController.o
+t1281246561
+s52992
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlacesListViewController.o
+t1281246561
+s40316
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/iCampus.LinkFileList
+c000000004C5E455A0000000000000AFF
+t1281246554
+s2815
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o
+t1281246558
+s72564
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/main.o
+t1281246558
+s6292
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/category.png
+c00000000497226A00000000000000156
+t1232217760
+s342
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/iCampusDataModel.xcdatamodel
+c000000004C5608B80000000000000088
+t1280706744
+s136
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/iCampus_Prefix.pch
+c000000004C3D32D200000000000000B7
+t1279079122
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/main.m
+c000000004C3D32D20000000000000168
+t1279079122
+s360
+i<UIKit/UIKit.h>
+
+N/Users/dequis/Desktop/iCampus 9/iCampus/stage.png
+c0000000049FE3F740000000000000125
+t1241399156
+s293
+
+N/var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch.gch
+t1281246558
+s14896144
+
+NiCampus-Info.plist
+c000000004C4F9BE3000000000000037D
+t1280285667
+s893
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302939354#302939354#0(0"0(0#1#0"8612444320#0"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayView.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939359.886628
+e302939360.142349
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayView.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m: In function '-[CalendarDayView didMoveToWindow]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: (Messages without a matching method signature
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: will be assumed to return 'id' and accept
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: '...' as arguments.)
+lSLF07#2@108"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m302939359#302939360#0(791"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m: In function '-[CalendarDayView didMoveToWindow]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: (Messages without a matching method signature/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: will be assumed to return 'id' and accept/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m:212: warning: '...' as arguments.)2(22@69"'UINavigationController' may not respond to '-refreshEventsWithDate:'302939359#152#185#0(6@100"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m302411038#212#0#212#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302939359#337#161#0(6@100"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m302411038#212#0#212#0#0"0(0#0#100"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m8610900096#2058"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayView.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayView.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939360.142450
+e302939360.249403
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m: In function '-[CalendarDayViewController refreshEvents:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:41: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct CalendarDayView *'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: 'UIView' may not respond to '-refreshEvents:'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: (Messages without a matching method signature
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: will be assumed to return 'id' and accept
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: '...' as arguments.)
+lSLF07#2@118"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m302939360#302939360#0(1045"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m: In function '-[CalendarDayViewController refreshEvents:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:41: warning: incompatible Objective-C types initializing 'struct UIView *', expected 'struct CalendarDayView *'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: 'UIView' may not respond to '-refreshEvents:'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: (Messages without a matching method signature/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: will be assumed to return 'id' and accept/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m:44: warning: '...' as arguments.)3(22@98"Incompatible Objective-C types initializing 'struct UIView *', expected 'struct CalendarDayView *'302939360#171#223#0(6@110"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m302403154#41#0#41#0#61"incompatible Objective-C types initializing '*', expected '*'0(22@45"'UIView' may not respond to '-refreshEvents:'302939360#394#170#0(6@110"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m302403154#44#0#44#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302939360#564#170#0(6@110"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m302403154#44#0#44#0#0"0(0#0#110"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m8612461344#2078"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/CalendarDayViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarDayViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarEvent.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939360.619520
+e302939360.732112
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarEvent.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.m302939360#302939360#0(0"0(0#0#90"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.m8614426144#2046"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarEvent.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarEvent.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarScrollViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939359.544863
+e302939359.728114
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarScrollViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.m302939359#302939359#0(0"0(0#0#105"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.m8614817216#2076"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarScrollViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarScrollViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939359.728231
+e302939359.886515
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.m302939359#302939359#0(0"0(0#0#99"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.m8612049312#2064"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/CalendarViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CalendarViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoriesListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939360.873694
+e302939360.989031
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoriesListViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m: In function '-[CategoriesListViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: 'UINavigationController' may not respond to '-openEventsInCategory:'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: (Messages without a matching method signature
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: will be assumed to return 'id' and accept
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: '...' as arguments.)
+lSLF07#2@86"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m302939360#302939360#0(708"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m: In function '-[CategoriesListViewController tableView:didSelectRowAtIndexPath:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: 'UINavigationController' may not respond to '-openEventsInCategory:'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: (Messages without a matching method signature/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: will be assumed to return 'id' and accept/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m:94: warning: '...' as arguments.)2(22@68"'UINavigationController' may not respond to '-openEventsInCategory:'302939360#162#161#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m302254660#94#0#94#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302939360#323#138#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m302254660#94#0#94#0#0"0(0#0#78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m8610816704#2049"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoriesListViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoryNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939360.989138
+e302939361.165373
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoryNavigationController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m: In function '-[CategoryNavigationController viewDidLoad]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:23: warning: assignment makes pointer from integer without a cast
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m: In function '-[CategoryNavigationController openEventsInCategory:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:53: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:57: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:61: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:65: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:69: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:73: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:77: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:81: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:85: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:89: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:93: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:97: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:101: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:105: warning: comparison between pointer and integer
+lSLF07#2@86"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302939360#302939361#0(2269"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m: In function '-[CategoryNavigationController viewDidLoad]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:23: warning: assignment makes pointer from integer without a cast/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m: In function '-[CategoryNavigationController openEventsInCategory:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:53: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:57: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:61: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:65: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:69: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:73: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:77: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:81: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:85: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:89: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:93: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:97: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:101: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m:105: warning: comparison between pointer and integer15(22@52"Assignment makes pointer from integer without a cast302939361#139#145#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#23#0#23#0#0"0(22@38"Comparison between pointer and integer302939361#433#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#53#0#53#0#0"0(22@38"Comparison between pointer and integer302939361#564#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#57#0#57#0#0"0(22@38"Comparison between pointer and integer302939361#695#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#61#0#61#0#0"0(22@38"Comparison between pointer and integer302939361#826#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#65#0#65#0#0"0(22@38"Comparison between pointer and integer302939361#957#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#69#0#69#0#0"0(22@38"Comparison between pointer and integer302939361#1088#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#73#0#73#0#0"0(22@38"Comparison between pointer and integer302939361#1219#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#77#0#77#0#0"0(22@38"Comparison between pointer and integer302939361#1350#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#81#0#81#0#0"0(22@38"Comparison between pointer and integer302939361#1481#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#85#0#85#0#0"0(22@38"Comparison between pointer and integer302939361#1612#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#89#0#89#0#0"0(22@38"Comparison between pointer and integer302939361#1743#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#93#0#93#0#0"0(22@38"Comparison between pointer and integer302939361#1874#131#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#97#0#97#0#0"0(22@38"Comparison between pointer and integer302939361#2005#132#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#101#0#101#0#0"0(22@38"Comparison between pointer and integer302939361#2137#132#0(6@78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m302408106#105#0#105#0#0"0(0#0#78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m8612329376#2049"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/CategoryNavigationController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DataInitializer.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939358.725591
+e302939361.569106
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DataInitializer.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.m302939358#302939361#0(0"0(0#0#65"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.m8610764320#2023"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DataInitializer.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DataInitializer.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayEventView.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939360.250107
+e302939360.431505
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayEventView.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.m302939360#302939360#0(0"0(0#0#97"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.m8611449536#2052"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DayView/DayEventView.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayEventView.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939358.841228
+e302939359.065973
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayNavigationController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m: In function '-[DayNavigationController refresh]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:37: warning: assignment makes pointer from integer without a cast
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m: In function '-[DayNavigationController openEventsInDay:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:66: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:71: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:76: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:81: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:86: warning: comparison between pointer and integer
+lSLF07#2@81"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m302939358#302939359#0(1029"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m: In function '-[DayNavigationController refresh]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:37: warning: assignment makes pointer from integer without a cast/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m: In function '-[DayNavigationController openEventsInDay:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:66: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:71: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:76: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:81: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m:86: warning: comparison between pointer and integer6(22@52"Assignment makes pointer from integer without a cast302939358#125#140#0(6@73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m302419008#37#0#37#0#0"0(22@38"Comparison between pointer and integer302939358#399#126#0(6@73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m302419008#66#0#66#0#0"0(22@38"Comparison between pointer and integer302939358#525#126#0(6@73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m302419008#71#0#71#0#0"0(22@38"Comparison between pointer and integer302939358#651#126#0(6@73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m302419008#76#0#76#0#0"0(22@38"Comparison between pointer and integer302939358#777#126#0(6@73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m302419008#81#0#81#0#0"0(22@38"Comparison between pointer and integer302939358#903#126#0(6@73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m302419008#86#0#86#0#0"0(0#0#73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m8609993504#2039"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DayNavigationController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaySelectorViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939360.431608
+e302939360.619305
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaySelectorViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m: In function '-[DaySelectorViewController viewDidLoad]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: (Messages without a matching method signature
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: will be assumed to return 'id' and accept
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: '...' as arguments.)
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m: In function '-[DaySelectorViewController pastDay:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:160: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m: In function '-[DaySelectorViewController nextDay:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:177: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'
+lSLF07#2@122"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m302939360#302939360#0(1599"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m: In function '-[DaySelectorViewController viewDidLoad]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: (Messages without a matching method signature/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: will be assumed to return 'id' and accept/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:80: warning: '...' as arguments.)/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m: In function '-[DaySelectorViewController pastDay:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:160: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m: In function '-[DaySelectorViewController nextDay:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m:177: warning: 'UINavigationController' may not respond to '-refreshEventsWithDate:'4(22@69"'UINavigationController' may not respond to '-refreshEventsWithDate:'302939360#172#198#0(6@114"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m302416480#80#0#80#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302939360#370#174#0(6@114"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m302416480#80#0#80#0#0"0(22@69"'UINavigationController' may not respond to '-refreshEventsWithDate:'302939360#1032#199#0(6@114"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m302416480#160#0#160#0#26"'*' may not respond to '*'0(22@69"'UINavigationController' may not respond to '-refreshEventsWithDate:'302939360#1400#199#0(6@114"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m302416480#177#0#177#0#26"'*' may not respond to '*'0(0#0#114"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m8609726144#2082"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaySelectorViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaysListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939360.732215
+e302939360.873571
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaysListViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m: In function '-[DaysListViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: 'UINavigationController' may not respond to '-openEventsInDay:'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: (Messages without a matching method signature
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: will be assumed to return 'id' and accept
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: '...' as arguments.)
+lSLF07#2@80"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m302939360#302939360#0(667"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m: In function '-[DaysListViewController tableView:didSelectRowAtIndexPath:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: 'UINavigationController' may not respond to '-openEventsInDay:'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: (Messages without a matching method signature/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: will be assumed to return 'id' and accept/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m:57: warning: '...' as arguments.)2(22@63"'UINavigationController' may not respond to '-openEventsInDay:'302939360#150#150#0(6@72"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m302405865#57#0#57#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302939360#300#132#0(6@72"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m302405865#57#0#57#0#0"0(0#0#72"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m8611828992#2037"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/DaysListViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventDetail.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939359.142908
+e302939359.373002
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventDetail.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m: In function '-[EventDetail ChangeAgendadoState:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: 'UINavigationController' may not respond to '-context'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: (Messages without a matching method signature
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: will be assumed to return 'id' and accept
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: '...' as arguments.)
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:67: warning: 'NSManagedObject' may not respond to '-save:'
+lSLF07#2@69"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m302939359#302939359#0(699"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m: In function '-[EventDetail ChangeAgendadoState:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: 'UINavigationController' may not respond to '-context'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: (Messages without a matching method signature/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: will be assumed to return 'id' and accept/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:65: warning: '...' as arguments.)/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m:67: warning: 'NSManagedObject' may not respond to '-save:'3(22@54"'UINavigationController' may not respond to '-context'302939359#114#130#0(6@61"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m302412852#65#0#65#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302939359#244#121#0(6@61"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m302412852#65#0#65#0#0"0(22@45"'NSManagedObject' may not respond to '-save:'302939359#578#121#0(6@61"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m302412852#67#0#67#0#26"'*' may not respond to '*'0(0#0#61"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m8611558816#2015"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventDetail.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939359.373112
+e302939359.544759
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventListViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m: In function '-[EventListViewController viewDidLoad]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m:20: warning: assignment makes pointer from integer without a cast
+lSLF07#2@81"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m302939359#302939359#0(269"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m: In function '-[EventListViewController viewDidLoad]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m:20: warning: assignment makes pointer from integer without a cast1(22@52"Assignment makes pointer from integer without a cast302939359#129#140#0(6@73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m302415833#20#0#20#0#0"0(0#0#73"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m8610423648#2039"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/EventListViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/Evento.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/../Evento.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939359.066180
+e302939359.142808
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/Evento.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/../Evento.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/../Evento.m302939359#302939359#0(0"0(0#0#59"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/../Evento.m8612209568#2008"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/../Evento.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/Evento.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/MyEventsNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939361.449088
+e302939361.593736
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/MyEventsNavigationController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.m302939361#302939361#0(0"0(0#0#78"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.m8611615360#2049"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/MyEventsNavigationController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/MyEventsNavigationController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlaceNavigationController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939361.165638
+e302939361.333888
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlaceNavigationController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m: In function '-[PlaceNavigationController viewDidLoad]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:23: warning: assignment makes pointer from integer without a cast
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m: In function '-[PlaceNavigationController openEventsInPlace:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:58: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:62: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:66: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:70: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:74: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:78: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:82: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:86: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:90: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:94: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:98: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:102: warning: comparison between pointer and integer
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:106: warning: comparison between pointer and integer
+lSLF07#2@83"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302939361#302939361#0(2081"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m: In function '-[PlaceNavigationController viewDidLoad]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:23: warning: assignment makes pointer from integer without a cast/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m: In function '-[PlaceNavigationController openEventsInPlace:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:58: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:62: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:66: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:70: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:74: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:78: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:82: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:86: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:90: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:94: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:98: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:102: warning: comparison between pointer and integer/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m:106: warning: comparison between pointer and integer14(22@52"Assignment makes pointer from integer without a cast302939361#133#142#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#23#0#23#0#0"0(22@38"Comparison between pointer and integer302939361#415#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#58#0#58#0#0"0(22@38"Comparison between pointer and integer302939361#543#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#62#0#62#0#0"0(22@38"Comparison between pointer and integer302939361#671#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#66#0#66#0#0"0(22@38"Comparison between pointer and integer302939361#799#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#70#0#70#0#0"0(22@38"Comparison between pointer and integer302939361#927#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#74#0#74#0#0"0(22@38"Comparison between pointer and integer302939361#1055#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#78#0#78#0#0"0(22@38"Comparison between pointer and integer302939361#1183#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#82#0#82#0#0"0(22@38"Comparison between pointer and integer302939361#1311#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#86#0#86#0#0"0(22@38"Comparison between pointer and integer302939361#1439#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#90#0#90#0#0"0(22@38"Comparison between pointer and integer302939361#1567#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#94#0#94#0#0"0(22@38"Comparison between pointer and integer302939361#1695#128#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#98#0#98#0#0"0(22@38"Comparison between pointer and integer302939361#1823#129#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#102#0#102#0#0"0(22@38"Comparison between pointer and integer302939361#1952#129#0(6@75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m302408181#106#0#106#0#0"0(0#0#75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m8610409024#2043"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlaceNavigationController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlacesListViewController.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939361.333995
+e302939361.448982
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlacesListViewController.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m: In function '-[PlacesListViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: 'UINavigationController' may not respond to '-openEventsInPlace:'
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: (Messages without a matching method signature
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: will be assumed to return 'id' and accept
+o/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: '...' as arguments.)
+lSLF07#2@82"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m302939361#302939361#0(681"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m: In function '-[PlacesListViewController tableView:didSelectRowAtIndexPath:]':/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: 'UINavigationController' may not respond to '-openEventsInPlace:'/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: (Messages without a matching method signature/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: will be assumed to return 'id' and accept/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m:53: warning: '...' as arguments.)2(22@65"'UINavigationController' may not respond to '-openEventsInPlace:'302939361#154#154#0(6@74"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m302254658#53#0#53#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)302939361#308#134#0(6@74"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m302254658#53#0#53#0#0"0(0#0#74"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m8608508960#2041"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/PlacesListViewController.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939358.588471
+e302939358.841123
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.m302939358#302939358#0(0"0(0#0#68"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.m8611444832#2029"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/iCampusAppDelegate.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o"0#
+
+CCompileC build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/main.o "/Users/dequis/Desktop/iCampus 9/iCampus/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939358.545975
+e302939358.725490
+r1
+xCompileC
+xbuild/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/main.o
+x/Users/dequis/Desktop/iCampus 9/iCampus/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/dequis/Desktop/iCampus 9/iCampus/main.m302939358#302939358#0(0"0(0#0#46"/Users/dequis/Desktop/iCampus 9/iCampus/main.m8611760992#1993"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch -c "/Users/dequis/Desktop/iCampus 9/iCampus/main.m" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.xib"
+s302939356.657944
+e302939357.050653
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@51"CompileXIB Classes/CategoriesListViewController.xib302939356#302939357#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#80"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.xib8610092992#625"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CategoriesListViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoriesListViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.xib"
+s302939356.743951
+e302939357.136704
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@51"CompileXIB Classes/CategoryNavigationController.xib302939356#302939357#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#80"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.xib8608943072#625"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CategoryNavigationController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/CategoryNavigationController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.xib"
+s302939354.326884
+e302939354.829784
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@46"CompileXIB Classes/DayNavigationController.xib302939354#302939354#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.xib8614389824#615"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/DayNavigationController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DayNavigationController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.xib"
+s302939356.366416
+e302939356.743858
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@45"CompileXIB Classes/DaysListViewController.xib302939356#302939356#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#74"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.xib8611474656#613"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/DaysListViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/DaysListViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.xib"
+s302939354.829879
+e302939355.345292
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@34"CompileXIB Classes/EventDetail.xib302939354#302939355#0(672"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#63"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.xib8608449984#591"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/EventDetail.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventDetail.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.xib"
+s302939354.941406
+e302939355.372532
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@46"CompileXIB Classes/EventListViewController.xib302939354#302939355#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#75"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.xib8597046656#615"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/EventListViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/EventListViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.xib"
+s302939357.050767
+e302939357.430784
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@48"CompileXIB Classes/PlaceNavigationController.xib302939357#302939357#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#77"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.xib8592849568#619"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/PlaceNavigationController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlaceNavigationController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.xib"
+s302939357.136800
+e302939357.537007
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@47"CompileXIB Classes/PlacesListViewController.xib302939357#302939357#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#76"/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.xib8611241952#617"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/PlacesListViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Classes/PlacesListViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/MainWindow.xib"
+s302939354.326081
+e302939354.941286
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib302939354#302939354#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#54"/Users/dequis/Desktop/iCampus 9/iCampus/MainWindow.xib8614698496#581"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/MainWindow.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarScrollViewController.xib"
+s302939355.372634
+e302939355.827694
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarScrollViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@69"CompileXIB Resources/CalendarControl/CalendarScrollViewController.xib302939355#302939355#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#98"/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarScrollViewController.xib8611802432#643"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CalendarScrollViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarScrollViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarViewController.xib"
+s302939355.347573
+e302939355.764979
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@63"CompileXIB Resources/CalendarControl/CalendarViewController.xib302939355#302939355#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#92"/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarViewController.xib8612104224#631"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CalendarViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/CalendarViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DaySelector/DaySelectorViewController.xib"
+s302939355.827888
+e302939356.366317
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DaySelector/DaySelectorViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@78"CompileXIB Resources/CalendarControl/DaySelector/DaySelectorViewController.xib302939355#302939356#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#107"/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DaySelector/DaySelectorViewController.xib8612105792#649"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/DaySelectorViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DaySelector/DaySelectorViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DayView/CalendarDayViewController.xib"
+s302939355.765079
+e302939356.657851
+r1
+xCompileXIB
+x/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DayView/CalendarDayViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@74"CompileXIB Resources/CalendarControl/DayView/CalendarDayViewController.xib302939355#302939356#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#103"/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DayView/CalendarDayViewController.xib8612854528#645"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/CalendarDayViewController.nib" "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/CalendarControl/DayView/CalendarDayViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Release-iphonesimulator/iCampus.app/MyEvents.png MyEvents.png
+s302939357.432797
+e302939357.439908
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iCampus.app/MyEvents.png
+xMyEvents.png
+lSLF07#2@17"Copy MyEvents.png302939357#302939357#0(0"0(0#0#52"/Users/dequis/Desktop/iCampus 9/iCampus/MyEvents.png8610799136#488"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/dequis/Desktop/iCampus 9/iCampus/MyEvents.png" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+
+CCpResource build/Release-iphonesimulator/iCampus.app/agendado.jpeg agendado.jpeg
+s302939357.430967
+e302939357.437294
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iCampus.app/agendado.jpeg
+xagendado.jpeg
+lSLF07#2@18"Copy agendado.jpeg302939357#302939357#0(0"0(0#0#53"/Users/dequis/Desktop/iCampus 9/iCampus/agendado.jpeg8611063808#489"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/dequis/Desktop/iCampus 9/iCampus/agendado.jpeg" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+
+CCpResource build/Release-iphonesimulator/iCampus.app/category.png category.png
+s302939357.432066
+e302939357.446169
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iCampus.app/category.png
+xcategory.png
+lSLF07#2@17"Copy category.png302939357#302939357#0(0"0(0#0#52"/Users/dequis/Desktop/iCampus 9/iCampus/category.png8610960000#488"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/dequis/Desktop/iCampus 9/iCampus/category.png" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+
+CCpResource build/Release-iphonesimulator/iCampus.app/events.png Resources/Images/events.png
+s302939355.345381
+e302939355.351217
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iCampus.app/events.png
+xResources/Images/events.png
+lSLF07#2@32"Copy Resources/Images/events.png302939355#302939355#0(0"0(0#0#67"/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/events.png8611172992#503"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/events.png" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+
+CCpResource build/Release-iphonesimulator/iCampus.app/left_arrow.png Resources/Images/left_arrow.png
+s302939355.346255
+e302939355.352643
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iCampus.app/left_arrow.png
+xResources/Images/left_arrow.png
+lSLF07#2@36"Copy Resources/Images/left_arrow.png302939355#302939355#0(0"0(0#0#71"/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/left_arrow.png8612894208#507"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/left_arrow.png" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+
+CCpResource build/Release-iphonesimulator/iCampus.app/right_arrow.png Resources/Images/right_arrow.png
+s302939355.346896
+e302939355.356241
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iCampus.app/right_arrow.png
+xResources/Images/right_arrow.png
+lSLF07#2@37"Copy Resources/Images/right_arrow.png302939355#302939355#0(0"0(0#0#72"/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/right_arrow.png8612593248#508"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/dequis/Desktop/iCampus 9/iCampus/Resources/Images/right_arrow.png" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+
+CCpResource build/Release-iphonesimulator/iCampus.app/stage.png stage.png
+s302939357.434528
+e302939357.442298
+r1
+xCpResource
+xbuild/Release-iphonesimulator/iCampus.app/stage.png
+xstage.png
+lSLF07#2@14"Copy stage.png302939357#302939357#0(0"0(0#0#49"/Users/dequis/Desktop/iCampus 9/iCampus/stage.png8610695872#485"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/dequis/Desktop/iCampus 9/iCampus/stage.png" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+
+CDataModelCompile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampusDataModel.mom" "/Users/dequis/Desktop/iCampus 9/iCampus/iCampusDataModel.xcdatamodel"
+s302939358.544841
+e302939358.588359
+r1
+xDataModelCompile
+x/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampusDataModel.mom
+x/Users/dequis/Desktop/iCampus 9/iCampus/iCampusDataModel.xcdatamodel
+lSLF07#2@76"Compile /Users/dequis/Desktop/iCampus 9/iCampus/iCampusDataModel.xcdatamodel302939358#302939358#0(0"0(0#0#68"/Users/dequis/Desktop/iCampus 9/iCampus/iCampusDataModel.xcdatamodel8612097792#413"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 "/Users/dequis/Desktop/iCampus 9/iCampus/iCampusDataModel.xcdatamodel" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampusDataModel.mom"0#
+
+CGenerateDSYMFile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app.dSYM" "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus"
+s302939361.985922
+e302939362.049031
+r1
+xGenerateDSYMFile
+x/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app.dSYM
+x/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus
+lSLF07#2@113"GenerateDSYMFile build/Release-iphonesimulator/iCampus.app.dSYM build/Release-iphonesimulator/iCampus.app/iCampus302939361#302939362#0(0"0(0#0#89"/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus8611921568#396"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus" -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app.dSYM"0#
+
+CLd "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus" normal i386
+s302939361.593833
+e302939361.985823
+r1
+xLd
+x/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus
+xnormal
+xi386
+lSLF07#2@94"Link /Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus302939361#302939361#0(0"0(0#0#0"8609990528#943"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" -filelist "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/Objects-normal/i386/iCampus.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/iCampus"0#
+
+CProcessInfoPlistFile "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/Info.plist" iCampus-Info.plist
+s302939354.316558
+e302939354.325978
+r1
+xProcessInfoPlistFile
+x/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/Info.plist
+xiCampus-Info.plist
+lSLF07#2@26"Process iCampus-Info.plist302939354#302939354#0(0"0(0#0#58"/Users/dequis/Desktop/iCampus 9/iCampus/iCampus-Info.plist8615081184#492"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iCampus-Info.plist -genpkginfo "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app/Info.plist"0#
+
+CProcessPCH /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s302939357.537130
+e302939358.544687
+r1
+xProcessPCH
+x/var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch.gch
+xiCampus_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile iCampus_Prefix.pch302939357#302939358#0(0"0(0#0#58"/Users/dequis/Desktop/iCampus 9/iCampus/iCampus_Prefix.pch8610397312#1880"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-generated-files.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap" -iquote "/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/iCampus-project-headers.hmap" "-F/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/include" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources/i386" "-I/Users/dequis/Desktop/iCampus 9/iCampus/build/iCampus.build/Release-iphonesimulator/iCampus.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/dequis/Desktop/iCampus 9/iCampus/iCampus_Prefix.pch" -o /var/folders/jN/jNGVwdHpHNW8epxPMFQO2E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-gixgarfzruierugeqhujlptdkdop/iCampus_Prefix.pch.gch0#
+
+CTouch "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"
+s302939362.049123
+e302939362.052833
+r1
+xTouch
+x/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app
+lSLF07#2@87"Touch /Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app302939362#302939362#0(0"0(0#0#0"8611628864#286"    cd "/Users/dequis/Desktop/iCampus 9/iCampus"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/dequis/Desktop/iCampus 9/iCampus/build/Release-iphonesimulator/iCampus.app"0#
+

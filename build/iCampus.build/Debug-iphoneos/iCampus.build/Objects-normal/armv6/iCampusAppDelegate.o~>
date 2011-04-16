@@ -1,0 +1,2 @@
+/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m: In function '-[iCampusAppDelegate application:didFinishLaunchingWithOptions:]':
+/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m:39: error: request for member 'context' in something not a structure or union

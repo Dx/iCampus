@@ -1,0 +1,273 @@
+TiCampus
+v7
+r0
+t300768347.710177
+cCheck dependencies
+cProcessInfoPlistFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/Info.plist iCampus-Info.plist
+cCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+cCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/SecondView.xib
+cCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/FirstView.xib
+cProcessPCH /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/main.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/FirstViewController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus normal i386
+cGenerateDSYMFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app.dSYM /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus
+cTouch /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C184F2A0000000000000132
+t1276661546
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.h
+c000000004C3D24C200000000000000ED
+t1279075522
+s237
+i<UIKit/UIKit.h>
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.m
+c000000004C3D24C200000000000005B4
+t1279075522
+s1460
+i"FirstViewController.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.h
+c000000004C3D24C200000000000001DC
+t1279075522
+s476
+i<UIKit/UIKit.h>
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m
+c000000004C3D24C20000000000000C38
+t1279075522
+s3128
+i"iCampusAppDelegate.h"
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/FirstView.xib
+c000000004C3D24C200000000000049D1
+t1279075522
+s18897
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+c000000004C3D24C2000000000000642E
+t1279075522
+s25646
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/SecondView.xib
+c000000004C3D24C200000000000049CF
+t1279075522
+s18895
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app
+t1279075547
+s272
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app.dSYM
+t1279075547
+s102
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/FirstView.nib
+t1279075540
+s1707
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/Info.plist
+t1279075537
+s591
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/MainWindow.nib
+t1279075538
+s1694
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/PkgInfo
+t1279075537
+s8
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/SecondView.nib
+t1279075539
+s1706
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus
+t1279075547
+s17200
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/FirstViewController.o
+t1279075545
+s34404
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/iCampus.LinkFileList
+c000000004C3D24D100000000000001D3
+t1279075537
+s467
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o
+t1279075545
+s51164
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/main.o
+t1279075545
+s6352
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch
+c000000004C3D24C200000000000000B7
+t1279075522
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m
+c000000004C3D24C20000000000000168
+t1279075522
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch.gch
+t1279075542
+s15232016
+
+NiCampus-Info.plist
+c000000004C3D24C2000000000000038D
+t1279075522
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300768337#300768337#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/FirstViewController.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300768345.354134
+e300768345.506712
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/FirstViewController.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.m300768345#300768345#0(0"0(0#0#92"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.m8601643904#2203"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources/i386 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/FirstViewController.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300768343.305166
+e300768345.387591
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m300768343#300768345#0(0"0(0#0#91"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m8604051744#2201"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources/i386 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/Classes/iCampusAppDelegate.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/iCampusAppDelegate.o0#
+
+CCompileC build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/main.o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300768343.303837
+e300768345.353965
+r1
+xCompileC
+xbuild/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/main.o
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m300768343#300768345#0(0"0(0#0#69"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m8599267552#2165"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources/i386 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources -include /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/main.m -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/FirstView.xib
+s300768338.963976
+e300768341.005940
+r1
+xCompileXIB
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib300768338#300768341#0(0"0(0#0#76"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/FirstView.xib8603754624#640"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/FirstView.nib /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+s300768337.850349
+e300768338.963878
+r1
+xCompileXIB
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib300768337#300768338#0(0"0(0#0#77"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib8601914720#642"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/MainWindow.nib /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/SecondView.xib
+s300768337.855347
+e300768340.631589
+r1
+xCompileXIB
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib300768337#300768340#0(0"0(0#0#77"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/SecondView.xib8590352256#642"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/SecondView.nib /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CGenerateDSYMFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app.dSYM /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus
+s300768347.026243
+e300768347.633087
+r1
+xGenerateDSYMFile
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app.dSYM
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/iCampus.app.dSYM build/Debug-iphonesimulator/iCampus.app/iCampus300768347#300768347#0(0"0(0#0#110"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus8601724608#455"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app.dSYM0#
+
+CLd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus normal i386
+s300768345.506814
+e300768347.026040
+r1
+xLd
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus
+xnormal
+xi386
+lSLF07#2@115"Link /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus300768345#300768347#0(0"0(0#0#0"8599956224#1020"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator -filelist /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/Objects-normal/i386/iCampus.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/iCampus0#
+
+CProcessInfoPlistFile /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/Info.plist iCampus-Info.plist
+s300768337.824850
+e300768337.850245
+r1
+xProcessInfoPlistFile
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/Info.plist
+xiCampus-Info.plist
+lSLF07#2@26"Process iCampus-Info.plist300768337#300768337#0(0"0(0#0#81"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus-Info.plist27303536605069420#551"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iCampus-Info.plist -genpkginfo /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app/Info.plist0#
+
+CProcessPCH /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch.gch iCampus_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300768341.020405
+e300768343.303110
+r1
+xProcessPCH
+x/var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch.gch
+xiCampus_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile iCampus_Prefix.pch300768341#300768343#0(0"0(0#0#81"/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch8599776256#2033"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-generated-files.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-own-target-headers.hmap -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-all-target-headers.hmap -iquote /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/iCampus-project-headers.hmap -F/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/include -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources/i386 -I/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/iCampus.build/Debug-iphonesimulator/iCampus.build/DerivedSources -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/iCampus_Prefix.pch -o /var/folders/XP/XPnVeeXtGLO7oNSArkxjUU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iCampus_Prefix-ctdnifknytwywvddpvrpvxyumhfw/iCampus_Prefix.pch.gch0#
+
+CTouch /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app
+s300768347.633189
+e300768347.710122
+r1
+xTouch
+x/Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app
+lSLF07#2@108"Touch /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app300768347#300768347#0(0"0(0#0#0"8602398944#326"    cd /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/danieldeaquino/Documents/adnSoft/CParty/iCampus/iCampus/build/Debug-iphonesimulator/iCampus.app0#
+

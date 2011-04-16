@@ -1,0 +1,5 @@
+/Users/dequis/Desktop/iCampus 7/iCampus/Classes/DaysListViewController.m: In function '-[DaysListViewController tableView:didSelectRowAtIndexPath:]':
+/Users/dequis/Desktop/iCampus 7/iCampus/Classes/DaysListViewController.m:57: warning: 'UINavigationController' may not respond to '-openEventsInDay:'
+/Users/dequis/Desktop/iCampus 7/iCampus/Classes/DaysListViewController.m:57: warning: (Messages without a matching method signature
+/Users/dequis/Desktop/iCampus 7/iCampus/Classes/DaysListViewController.m:57: warning: will be assumed to return 'id' and accept
+/Users/dequis/Desktop/iCampus 7/iCampus/Classes/DaysListViewController.m:57: warning: '...' as arguments.)

@@ -1,0 +1,10 @@
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m:16: error: no declaration of property 'eventsInfo' found in the interface
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m: In function '-[Day2ViewController tableView:numberOfRowsInSection:]':
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m:70: error: expected expression before 'return'
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m:71: warning: control reaches end of non-void function
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m: In function '-[Day2ViewController tableView:cellForRowAtIndexPath:]':
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m:86: error: '_eventsInfo' undeclared (first use in this function)
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m:86: error: (Each undeclared identifier is reported only once
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m:86: error: for each function it appears in.)
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m: In function '-[Day2ViewController dealloc]':
+/Users/dequis/Desktop/iCampus/iCampus/Classes/Day2ViewController.m:165: error: '_eventsInfo' undeclared (first use in this function)
