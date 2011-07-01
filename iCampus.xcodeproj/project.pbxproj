@@ -42,6 +42,8 @@
 		6D0965771203B4E000EBDF91 /* PlaceNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D0965751203B4E000EBDF91 /* PlaceNavigationController.xib */; };
 		6D09657E1203B57300EBDF91 /* PlacesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D09657C1203B57300EBDF91 /* PlacesListViewController.m */; };
 		6D09657F1203B57300EBDF91 /* PlacesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D09657D1203B57300EBDF91 /* PlacesListViewController.xib */; };
+		6D4EE8D413BAE7A8004B0A72 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4EE8D213BAE7A8004B0A72 /* CustomCell.m */; };
+		6D4EE8D513BAE7A8004B0A72 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D4EE8D313BAE7A8004B0A72 /* CustomCell.xib */; };
 		6D927408120E88410052B4A2 /* largeIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D927406120E88410052B4A2 /* largeIcon3.png */; };
 		6D927409120E88410052B4A2 /* smallIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D927407120E88410052B4A2 /* smallIcon3.png */; };
 		6DDED3C51206823000346F57 /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDED3C21206823000346F57 /* category.png */; };
@@ -110,6 +112,9 @@
 		6D09657B1203B57300EBDF91 /* PlacesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlacesListViewController.h; sourceTree = "<group>"; };
 		6D09657C1203B57300EBDF91 /* PlacesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlacesListViewController.m; sourceTree = "<group>"; };
 		6D09657D1203B57300EBDF91 /* PlacesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PlacesListViewController.xib; path = Classes/PlacesListViewController.xib; sourceTree = "<group>"; };
+		6D4EE8D113BAE7A8004B0A72 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomCell.h; path = ../CustomCell.h; sourceTree = "<group>"; };
+		6D4EE8D213BAE7A8004B0A72 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomCell.m; path = ../CustomCell.m; sourceTree = "<group>"; };
+		6D4EE8D313BAE7A8004B0A72 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		6D927406120E88410052B4A2 /* largeIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeIcon3.png; sourceTree = "<group>"; };
 		6D927407120E88410052B4A2 /* smallIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallIcon3.png; sourceTree = "<group>"; };
 		6DDED3C21206823000346F57 /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
@@ -338,6 +343,8 @@
 		6D0964F61203A54F00EBDF91 /* CommonViews */ = {
 			isa = PBXGroup;
 			children = (
+				6D4EE8D113BAE7A8004B0A72 /* CustomCell.h */,
+				6D4EE8D213BAE7A8004B0A72 /* CustomCell.m */,
 				6D06F3BD11F6BBFE001DFE50 /* EventListViewController.h */,
 				6D06F3BE11F6BBFE001DFE50 /* EventListViewController.m */,
 				6D06F34F11F6B4C3001DFE50 /* EventDetail.h */,
@@ -380,6 +387,7 @@
 			children = (
 				6D06F3BF11F6BBFE001DFE50 /* EventListViewController.xib */,
 				6D06F35111F6B4C3001DFE50 /* EventDetail.xib */,
+				6D4EE8D313BAE7A8004B0A72 /* CustomCell.xib */,
 			);
 			name = CommonViews;
 			sourceTree = "<group>";
@@ -479,6 +487,7 @@
 				6DDED3C71206823000346F57 /* stage.png in Resources */,
 				6D927408120E88410052B4A2 /* largeIcon3.png in Resources */,
 				6D927409120E88410052B4A2 /* smallIcon3.png in Resources */,
+				6D4EE8D513BAE7A8004B0A72 /* CustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,6 +519,7 @@
 				6D0965761203B4E000EBDF91 /* PlaceNavigationController.m in Sources */,
 				6D09657E1203B57300EBDF91 /* PlacesListViewController.m in Sources */,
 				1FF2E4E71204F25F00B31759 /* MyEventsNavigationController.m in Sources */,
+				6D4EE8D413BAE7A8004B0A72 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

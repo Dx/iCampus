@@ -15,14 +15,14 @@
 	NSManagedObjectContext *context;
 	IBOutlet PlacesListViewController *placesList;
 	IBOutlet EventListViewController *tableView;
-	BOOL *loaded;
+	BOOL loaded;
 }
 
 @property (nonatomic, retain) NSManagedObjectContext *context;
 @property (nonatomic, retain) IBOutlet EventListViewController *tableView;
 @property (nonatomic, retain) IBOutlet PlacesListViewController *placesList;
 
--(void) openEventsInPlace:(NSUInteger *) place;
+-(void) openEventsInPlace:(NSUInteger ) place;
 -(void) refresh;
 
 @end

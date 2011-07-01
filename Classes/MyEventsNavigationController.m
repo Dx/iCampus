@@ -44,7 +44,7 @@
 	[request setEntity:entityDescription];	
 	
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:
-							  @"(fechaInicio >= %@) and (fechaFin <= %@) and (agendado = YES)", date, endDate];
+							  @"(fechaInicio >= %@) and (fechaFinal <= %@) and (agendado = YES)", date, endDate];
 	[request setPredicate:predicate];
 	
 	NSSortDescriptor *sortDescriptor = [[NSSortDescriptor alloc]

@@ -15,14 +15,14 @@
 	NSManagedObjectContext *context;
 	IBOutlet CategoriesListViewController *categoriesList;
 	IBOutlet EventListViewController *tableView;
-	BOOL *loaded;
+	BOOL loaded;
 }
 
 @property (nonatomic, retain) NSManagedObjectContext *context;
 @property (nonatomic, retain) IBOutlet EventListViewController *tableView;
 @property (nonatomic, retain) IBOutlet CategoriesListViewController *categoriesList;
 
--(void) openEventsInCategory:(NSUInteger *) category;
+-(void) openEventsInCategory:(NSUInteger ) category;
 -(void) refresh;
 
 @end

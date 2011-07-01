@@ -11,7 +11,7 @@
 
 @interface EventListViewController : UITableViewController {
 	NSArray *eventsInfo;
-	BOOL *loaded;
+	BOOL loaded;
 }
 
 @property (retain, nonatomic) NSArray *eventsInfo;

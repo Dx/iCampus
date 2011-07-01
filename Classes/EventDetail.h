@@ -11,7 +11,7 @@
 
 @interface EventDetail : UIViewController {
 
-	UILabel* labelNombre;
+	UILabel *labelNombre;
 	UILabel *labelHorario;
 	UILabel *labelLugar;
 	UILabel *labelCategoria;

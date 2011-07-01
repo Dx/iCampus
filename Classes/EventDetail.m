@@ -27,7 +27,7 @@
 		NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
 		[outputFormatter setDateFormat:@"HH:mm EE d MMM"];
 		NSString *fechaInicioFormateada = [outputFormatter stringFromDate:eventoDetalle.fechaInicio];
-		NSString *fechaFinFormateada = [outputFormatter stringFromDate:eventoDetalle.fechaFin];
+		NSString *fechaFinFormateada = [outputFormatter stringFromDate:eventoDetalle.fechaFinal];
 		NSString *horario = [NSString stringWithFormat:@"%@ - %@", 
 							 fechaInicioFormateada, fechaFinFormateada];
 
@@ -61,6 +61,8 @@
 	else {
 		eventoDetalle.agendado = [NSNumber numberWithBool:YES];
 	}
+    
+    [self scheduleAlarmForEvent:eventoDetalle.nombre AtDate:eventoDetalle.fechaInicio];
 	
 	NSManagedObject *context = [[self navigationController] context];
 	NSError	*error;
@@ -68,6 +70,33 @@
 		NSLog(@"No pudo guardar: %@", error);
 	}
 	
+}
+
+- (void) scheduleAlarmForEvent:(NSString *) event AtDate:(NSDate *) dateSelected
+{
+            
+    UILocalNotification *localNotif = [[UILocalNotification alloc] init];
+    if (localNotif == nil)
+        return;
+    localNotif.fireDate = dateSelected;
+    localNotif.timeZone = [NSTimeZone defaultTimeZone];
+    
+	// Notification details
+    localNotif.alertBody = event;
+	// Set the action button
+    localNotif.alertAction = @"View";
+    
+    localNotif.soundName = UILocalNotificationDefaultSoundName;
+    localNotif.applicationIconBadgeNumber = 1;
+    
+	// Specify custom data for the notification
+    NSDictionary *infoDict = [NSDictionary dictionaryWithObject:@"someValue" forKey:@"someKey"];
+    localNotif.userInfo = infoDict;
+    
+	// Schedule the notification
+    [[UIApplication sharedApplication] scheduleLocalNotification:localNotif];
+    [localNotif release];
+    
 }
 
 - (void)didReceiveMemoryWarning {

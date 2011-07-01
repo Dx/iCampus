@@ -38,7 +38,7 @@
 	}	
 }
 
--(void) openEventsInCategory:(NSUInteger *) category {
+-(void) openEventsInCategory:(NSUInteger ) category {
 
 	NSEntityDescription *entityDescription = [NSEntityDescription
 											  entityForName:@"Evento" inManagedObjectContext:context];
@@ -47,79 +47,57 @@
 	
 	// Set example predicate and sort orderings...
 	NSString *categoryToSearch;
-	if (category == 0) {
-		categoryToSearch = @"Astronomia";
-	} else {
-		if (category == 1) {
-			categoryToSearch = @"Campusbot";
-		}
-		else {
-			if (category == 2) {
-				categoryToSearch = @"Desarrollo";
-			}
-			else {
-				if (category == 3){
-					categoryToSearch = @"Diseno";
-				}
-				else {
-					if (category == 4) {
-						categoryToSearch = @"Foto";
-					}
-					else {
-						if (category == 5) {
-							categoryToSearch = @"General";
-						}
-						else {
-							if (category == 6) {
-								categoryToSearch = @"Modding";
-							}
-							else {
-								if (category == 7) {
-									categoryToSearch = @"Musica";
-								}
-								else {
-									if (category == 8){
-										categoryToSearch = @"Principal";
-									}
-									else {
-										if (category == 9) {
-											categoryToSearch = @"Seguridad y Redes";
-										}
-										else {
-											if (category == 10) {
-												categoryToSearch = @"Simulacion";
-											}
-											else {
-												if (category == 11) {
-													categoryToSearch = @"Social Media";
-												}
-												else {
-													if (category == 12) {
-														categoryToSearch = @"Software Libre";
-													}
-													else {
-														if (category == 13){
-															categoryToSearch = @"Video";
-														}
-														else {
-															if (category == 14) {
-																categoryToSearch = @"Videojuegos";
-															}
-														}														
-													}													
-												}
-											}
-										}										
-									}									
-								}								
-							}
-						}
-					}					
-				}				
-			}			
-		}		
-	}
-	
+    
+    switch (category) {
+        case 0:
+            categoryToSearch = @"Astronomia";
+            break;
+        case 1:
+            categoryToSearch = @"Campusbot";
+            break;
+        case 2:
+			categoryToSearch = @"Desarrollo";
+            break;
+        case 3:
+            categoryToSearch = @"Diseno";
+            break;
+        case 4:
+            categoryToSearch = @"Foto";
+            break;
+        case 5:
+            categoryToSearch = @"General";
+            break;
+        case 6:
+            categoryToSearch = @"Modding";
+            break;
+        case 7:
+            categoryToSearch = @"Musica";
+            break;
+        case 8:
+            categoryToSearch = @"Principal";
+            break;
+        case 9:
+            categoryToSearch = @"Seguridad y Redes";
+            break;
+        case 10:
+            categoryToSearch = @"Simulacion";
+            break;
+        case 11:
+            categoryToSearch = @"Social Media";
+            break;
+        case 12:
+            categoryToSearch = @"Software Libre";
+            break;
+        case 13:
+            categoryToSearch = @"Video";
+            break;
+        case 14:
+            categoryToSearch = @"Videojuegos";
+            break;
+        default:
+            break;
+    }
+    
 	
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:
 							  @"(categoria = %@)", categoryToSearch];

@@ -16,8 +16,9 @@
 @dynamic descripcion;
 @dynamic ponente;
 @dynamic agendado;
-@dynamic fechaFin;
+@dynamic fechaFinal;
 @dynamic categoria;
 @dynamic lugar;
+@dynamic ponenteDesc;
 
 @end

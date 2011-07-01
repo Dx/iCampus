@@ -16,6 +16,7 @@
 @synthesize tableView;
 @synthesize placesList;
 
+
 - (void)viewDidLoad {
 	loaded = NO;
     [super viewDidLoad];
@@ -43,7 +44,7 @@
 
 }
 
--(void) openEventsInPlace:(NSUInteger *) place {
+-(void) openEventsInPlace:(NSUInteger ) place {
 	
 	NSEntityDescription *entityDescription = [NSEntityDescription
 											  entityForName:@"Evento" inManagedObjectContext:context];
@@ -52,74 +53,54 @@
 	
 	// Set example predicate and sort orderings...
 	NSString *placeToSearch;
-	if (place == 0) {
-		placeToSearch = @"Área de Juegos";
-	} else {
-		if (place == 1) {
-			placeToSearch = @"Área de Simuladores";
-		}
-		else {
-			if (place == 2) {
-				placeToSearch = @"Área Externa de Astronomía";
-			}
-			else {
-				if (place == 3){
-					placeToSearch = @"Escenario Astronomía";
-				}
-				else {
-					if (place == 4) {
-						placeToSearch = @"Escenario CampusBot";
-					}
-					else {
-						if (place == 5) {
-							placeToSearch = @"Escenario Desarrolladores";
-						}
-						else {
-							if (place == 6) {
-								placeToSearch = @"Escenario de Juegos";
-							}
-							else {
-								if (place == 7) {
-									placeToSearch = @"Escenario de Modding y Electrónica";
-								}
-								else {
-									if (place == 8){
-										placeToSearch = @"Escenario de Música";
-									}
-									else {
-										if (place == 9) {
-											placeToSearch = @"Escenario de Simulación / Juegos";
-										}
-										else {
-											if (place == 10) {
-												placeToSearch = @"Escenario Diseño";
-											}
-											else {
-												if (place == 11) {
-													placeToSearch = @"Escenario de Foto y Video";
-												}
-												else {
-													if (place == 12) {
-														placeToSearch = @"Escenario Principal";
-													}
-													else {
-														if (place == 13){
-															placeToSearch = @"Escenario Seguridad y Redes";
-														}													
-													}													
-												}
-											}
-										}										
-									}									
-								}								
-							}
-						}
-					}					
-				}				
-			}			
-		}		
-	}
-	
+    
+    switch (place) {
+        case 0:
+            placeToSearch = @"Área de Juegos";
+            break;
+        case 1:
+            placeToSearch = @"Área de Simuladores";
+            break;
+        case 2:
+            placeToSearch = @"Área Externa de Astronomía";
+            break;
+        case 3:
+            placeToSearch = @"Escenario Astronomía";
+            break;
+        case 4:
+            placeToSearch = @"Escenario CampusBot";
+            break;
+        case 5:
+            placeToSearch = @"Escenario Desarrolladores";
+            break;
+        case 6:
+            placeToSearch = @"Escenario de Juegos";
+            break;
+        case 7:
+            placeToSearch = @"Escenario de Modding y Electrónica";
+            break;
+        case 8:
+            placeToSearch = @"Escenario de Música";
+            break;
+        case 9:
+            placeToSearch = @"Escenario de Simulación / Juegos";
+            break;
+        case 10:
+            placeToSearch = @"Escenario Diseño";
+            break;
+        case 11:
+            placeToSearch = @"Escenario de Foto y Video";
+            break;
+        case 12:
+            placeToSearch = @"Escenario Principal";
+            break;
+        case 13:
+            placeToSearch = @"Escenario Seguridad y Redes";
+            break;
+        default:
+            break;
+    }
+    	
 	
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:
 							  @"(lugar = %@)", placeToSearch];

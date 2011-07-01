@@ -34,20 +34,17 @@
 		DaysListViewController *daysViewController = (DaysListViewController *) [self topViewController];
 		NSArray *campusDays = [NSArray arrayWithObjects: @"Martes 10", @"Miércoles 11", @"Jueves 12", @"Viernes 13", @"Sabado 14", @"Domingo 15" ,nil];	
 		daysViewController.days = campusDays;
-		loaded = YES;
+		loaded = NO;
 	}
 }
 
 -(void) openLastSearch
 {
-	if (selectedDay != nil)
-	{
-		[self openEventsInDay:selectedDay];
-	}
+    [self openEventsInDay:selectedDay];
 }
 
 
--(void) openEventsInDay:(NSUInteger *) day {
+-(void) openEventsInDay:(NSInteger ) day {
 	
 	selectedDay = day;
 	
@@ -59,44 +56,36 @@
 	// Set example predicate and sort orderings...
 	NSDate *fromDate;
 	NSDate *toDate;
-	if (day == 0) {
-		fromDate = [[NSDate alloc] initWithString:@"2010-08-10 00:00:00 -0500"];
-		toDate = [[NSDate alloc] initWithString:@"2010-08-10 23:59:00 -0500"];
-	} else {
-		if (day == 1) {
-			fromDate = [[NSDate alloc] initWithString:@"2010-08-11 00:00:00 -0500"];
-			toDate = [[NSDate alloc] initWithString:@"2010-08-11 23:59:00 -0500"];	
-		}
-		else {
-			if (day == 2) {
-				fromDate = [[NSDate alloc] initWithString:@"2010-08-12 00:00:00 -0500"];
-				toDate = [[NSDate alloc] initWithString:@"2010-08-12 23:59:00 -0500"];
-			}
-			else {
-				if (day == 3){
-					fromDate = [[NSDate alloc] initWithString:@"2010-08-13 00:00:00 -0500"];
-					toDate = [[NSDate alloc] initWithString:@"2010-08-13 23:59:00 -0500"];
-				}
-				else {
-					if (day == 4) {
-						fromDate = [[NSDate alloc] initWithString:@"2010-08-14 00:00:00 -0500"];
-						toDate = [[NSDate alloc] initWithString:@"2010-08-14 23:59:00 -0500"];
-					}
-					else {
-						if (day == 5) {
-							fromDate = [[NSDate alloc] initWithString:@"2010-08-15 00:00:00 -0500"];
-							toDate = [[NSDate alloc] initWithString:@"2010-08-15 23:59:00 -0500"];
-						}
-					}
-
-				}
-
-			}
-
-		}
-
-	}
-
+    
+    switch (day) {
+        case 0:
+            fromDate = [[NSDate alloc] initWithString:@"2011-06-28 00:00:00 -0500"];
+            toDate = [[NSDate alloc] initWithString:@"2011-06-28 23:59:00 -0500"];
+            break;
+        case 1:
+            fromDate = [[NSDate alloc] initWithString:@"2011-07-20 00:00:00 -0500"];
+			toDate = [[NSDate alloc] initWithString:@"2011-07-20 23:59:00 -0500"];	
+            break;
+        case 2:
+            fromDate = [[NSDate alloc] initWithString:@"2011-07-21 00:00:00 -0500"];
+            toDate = [[NSDate alloc] initWithString:@"2011-07-21 23:59:00 -0500"];
+            break;
+        case 3:
+            fromDate = [[NSDate alloc] initWithString:@"2011-07-22 00:00:00 -0500"];
+            toDate = [[NSDate alloc] initWithString:@"2011-07-22 23:59:00 -0500"];
+            break;
+        case 4:
+            fromDate = [[NSDate alloc] initWithString:@"2011-07-23 00:00:00 -0500"];
+            toDate = [[NSDate alloc] initWithString:@"2011-07-23 23:59:00 -0500"];
+            break;
+        case 5:
+            fromDate = [[NSDate alloc] initWithString:@"2011-07-24 00:00:00 -0500"];
+            toDate = [[NSDate alloc] initWithString:@"2011-07-24 23:59:00 -0500"];
+            break;
+        default:
+            break;
+    }
+    
 	NSPredicate *predicate = [NSPredicate predicateWithFormat:
 							  @"(fechaInicio >= %@) AND (fechaInicio <= %@)", fromDate, toDate];
 	[request setPredicate:predicate];

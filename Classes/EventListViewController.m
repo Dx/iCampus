@@ -10,6 +10,7 @@
 #import "Evento.h"
 #import "DayNavigationController.h"
 #import "EventDetail.h"
+#import "CustomCell.h"
 
 @implementation EventListViewController
 
@@ -49,6 +50,7 @@
     static NSString *CellIdentifier = @"Cell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    //CustomCell *cell = [[CustomCell alloc] init];
 	if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle 
 									   reuseIdentifier:CellIdentifier] autorelease];
@@ -60,23 +62,29 @@
 	NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
 	[outputFormatter setDateFormat:@"EEE dd HH:mm"];
 	NSString *fechaInicioFormateada = [outputFormatter stringFromDate:info.fechaInicio];
-	NSString *fechaFinFormateada = [outputFormatter stringFromDate:info.fechaFin];
+	NSString *fechaFinFormateada = [outputFormatter stringFromDate:info.fechaFinal];
 	NSString *horario = [NSString stringWithFormat:@"%@ - %@", 
 						 fechaInicioFormateada, fechaFinFormateada];
 	if ([info.agendado boolValue]){
 		UIImage *image = [UIImage imageNamed:@"agendado.jpeg"];
-		cell.imageView.image = image;
+        cell.imageView.image = image;
+		//cell.imageAgendado.image = image;
 		
 	}
 	else {
-		cell.imageView.image = nil;
+        cell.imageView.image = nil;
+		//cell.imageAgendado.image = nil;
 	}
 
-
-	cell.textLabel.text = info.nombre;
-	cell.textLabel.numberOfLines = 0;
+	
+    cell.textLabel.text = info.nombre;
+    cell.detailTextLabel.text = horario; 
+	cell.textLabel.numberOfLines = 2;
 	cell.textLabel.font = [UIFont boldSystemFontOfSize:16];
-    cell.detailTextLabel.text = horario;
+    
+    //cell.eventNombre.text = info.nombre;    
+    //cell.eventHorario.text = horario;
+       
 	
     return cell;
 }

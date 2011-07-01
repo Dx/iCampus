@@ -68,7 +68,7 @@
 		Evento *evento = [events objectAtIndex:index];
 		
 		calendarEvent.startDate = evento.fechaInicio;
-		calendarEvent.endDate = evento.fechaFin; 
+		calendarEvent.endDate = evento.fechaFinal; 
 		calendarEvent.name = evento.categoria;
 		calendarEvent.evento = evento;
 	

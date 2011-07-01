@@ -111,8 +111,13 @@
 }
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
-	//[viewController refresh];
+    
+        
+//	tabBarController.delegate = [[ViewSwitcherTabbarDelegate alloc]init];
+//    [window addSubview:[tabBarController view]];
+//    [window makeKeyAndVisible];
 }
+
 
 
 /*

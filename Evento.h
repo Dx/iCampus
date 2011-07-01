@@ -18,9 +18,10 @@
 @property (nonatomic, retain) NSString	* descripcion;
 @property (nonatomic, retain) NSString	* ponente;
 @property (nonatomic, retain) NSNumber	* agendado;
-@property (nonatomic, retain) NSDate	* fechaFin;
+@property (nonatomic, retain) NSDate	* fechaFinal;
 @property (nonatomic, retain) NSString	* categoria;
 @property (nonatomic, retain) NSString	* lugar;
+@property (nonatomic, retain) NSString	* ponenteDesc;
 
 @end
 

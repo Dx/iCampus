@@ -15,7 +15,7 @@
 	NSManagedObjectContext *context;
 	IBOutlet DaysListViewController *daysList;
 	IBOutlet EventListViewController *tableView;
-	NSUInteger *selectedDay;
+	NSInteger selectedDay;
 	BOOL *loaded;
 }
 
@@ -24,7 +24,7 @@
 @property (nonatomic, retain) IBOutlet DaysListViewController *daysList;
 
 -(void) openLastSearch;
--(void) openEventsInDay:(NSUInteger *) day;
+-(void) openEventsInDay:(NSInteger ) day;
 -(void) refresh;
 
 @end
