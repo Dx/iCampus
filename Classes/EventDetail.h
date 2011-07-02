@@ -32,7 +32,8 @@
 
 @property (nonatomic, retain) Evento *eventoDetalle;
 
--(IBAction) ChangeAgendadoState:(id)sender;
+- (IBAction) ChangeAgendadoState:(id)sender;
+- (void) scheduleAlarmForEvent:(NSString *) event AtDate:(NSDate *) dateSelected;
 
 
 @end

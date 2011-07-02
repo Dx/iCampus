@@ -30,13 +30,13 @@
 	}
 	else {
 		PlacesListViewController *placesViewController = (PlacesListViewController *) [self topViewController];
-		NSArray *campusPlaces = [NSArray arrayWithObjects: @"Área de Juegos", @"Área de Simuladores", 
-								 @"Área Externa de Astronomía", @"Escenario Astronomía", 
-								 @"Escenario Campusbot", @"Escenario Desarrolladores", 
-								 @"Escenario de Juegos", @"Escenario de Modding y Electrónica", 
-								 @"Escenario de Música", @"Escenario de Simulación / Juegos", 
-								 @"Escenario Diseño", @"Escenario de Foto y Video", 
-								 @"Escenario Principal", @"Escenario Seguridad y Redes", nil];
+		NSArray *campusPlaces = [NSArray arrayWithObjects: @"Escenario de Música", @"Escenario Cultura Libre", 
+								 @"Escenario de Seguridad y redes", @"Escenario de Robótica", 
+								 @"Escenario de Juegos", @"Escenario de Astronomía y espacio", 
+								 @"Escenario Artes Visuales", @"Escenario de Social Media", 
+								 @"Escenario de Hardware y modding", @"Escenario de Desarrollo de software", 
+								 @"Arena", @"Area de Juegos", 
+								 @"Zona Expo", nil];
 		
 		placesViewController.places = campusPlaces;
 	}
@@ -56,46 +56,43 @@
     
     switch (place) {
         case 0:
-            placeToSearch = @"Área de Juegos";
-            break;
-        case 1:
-            placeToSearch = @"Área de Simuladores";
-            break;
-        case 2:
-            placeToSearch = @"Área Externa de Astronomía";
-            break;
-        case 3:
-            placeToSearch = @"Escenario Astronomía";
-            break;
-        case 4:
-            placeToSearch = @"Escenario CampusBot";
-            break;
-        case 5:
-            placeToSearch = @"Escenario Desarrolladores";
-            break;
-        case 6:
-            placeToSearch = @"Escenario de Juegos";
-            break;
-        case 7:
-            placeToSearch = @"Escenario de Modding y Electrónica";
-            break;
-        case 8:
             placeToSearch = @"Escenario de Música";
             break;
+        case 1:
+            placeToSearch = @"Escenario Cultura Libre";
+            break;
+        case 2:
+            placeToSearch = @"Escenario de Seguridad y redes";
+            break;
+        case 3:
+            placeToSearch = @"Escenario de Robótica";
+            break;
+        case 4:
+            placeToSearch = @"Escenario de Juegos";
+            break;
+        case 5:
+            placeToSearch = @"Escenario de Astronomía y espacio";
+            break;
+        case 6:
+            placeToSearch = @"Escenario Artes Visuales";
+            break;
+        case 7:
+            placeToSearch = @"Escenario de Social Media";
+            break;
+        case 8:
+            placeToSearch = @"Escenario de Hardware y modding";
+            break;
         case 9:
-            placeToSearch = @"Escenario de Simulación / Juegos";
+            placeToSearch = @"Escenario de Desarrollo de software";
             break;
         case 10:
-            placeToSearch = @"Escenario Diseño";
+            placeToSearch = @"Arena";
             break;
         case 11:
-            placeToSearch = @"Escenario de Foto y Video";
+            placeToSearch = @"Area de Juegos";
             break;
         case 12:
-            placeToSearch = @"Escenario Principal";
-            break;
-        case 13:
-            placeToSearch = @"Escenario Seguridad y Redes";
+            placeToSearch = @"Zona Expo";
             break;
         default:
             break;

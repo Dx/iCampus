@@ -29,9 +29,8 @@
 	}
 	else {
 		CategoriesListViewController *categoriesViewController = (CategoriesListViewController *) [self topViewController];
-		NSArray *campusCategories = [NSArray arrayWithObjects: @"Astronomía", @"Campusbot", @"Desarrollo", @"Diseño", 
-									 @"Foto", @"General", @"Modding", @"Música", @"Principal", @"Seguridad y Redes", 
-									 @"Simulación", @"Social Media", @"Software Libre", @"Video", @"Videojuegos", nil];
+		NSArray *campusCategories = [NSArray arrayWithObjects: @"Astronomía y Espacio", @"Música", @"Cultura Libre", @"Seguridad y Redes", 
+									 @"Robótica", @"Juegos", @"Artes Visuales", @"Social Media", @"Hardware y Modding", @"Desarrollo de Software", nil];
 		
 		categoriesViewController.categories = campusCategories;
 		
@@ -50,49 +49,34 @@
     
     switch (category) {
         case 0:
-            categoryToSearch = @"Astronomia";
+            categoryToSearch = @"Astronomía y Espacio";
             break;
         case 1:
-            categoryToSearch = @"Campusbot";
+            categoryToSearch = @"Música";
             break;
         case 2:
-			categoryToSearch = @"Desarrollo";
+			categoryToSearch = @"Cultura Libre";
             break;
         case 3:
-            categoryToSearch = @"Diseno";
-            break;
-        case 4:
-            categoryToSearch = @"Foto";
-            break;
-        case 5:
-            categoryToSearch = @"General";
-            break;
-        case 6:
-            categoryToSearch = @"Modding";
-            break;
-        case 7:
-            categoryToSearch = @"Musica";
-            break;
-        case 8:
-            categoryToSearch = @"Principal";
-            break;
-        case 9:
             categoryToSearch = @"Seguridad y Redes";
             break;
-        case 10:
-            categoryToSearch = @"Simulacion";
+        case 4:
+            categoryToSearch = @"Robótica";
             break;
-        case 11:
+        case 5:
+            categoryToSearch = @"Juegos";
+            break;
+        case 6:
+            categoryToSearch = @"Artes Visuales";
+            break;
+        case 7:
             categoryToSearch = @"Social Media";
             break;
-        case 12:
-            categoryToSearch = @"Software Libre";
+        case 8:
+            categoryToSearch = @"Hardware y Modding";
             break;
-        case 13:
-            categoryToSearch = @"Video";
-            break;
-        case 14:
-            categoryToSearch = @"Videojuegos";
+        case 9:
+            categoryToSearch = @"Desarrollo de Software";
             break;
         default:
             break;

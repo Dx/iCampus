@@ -66,7 +66,7 @@
 	
 	NSManagedObject *context = [[self navigationController] context];
 	NSError	*error;
-	if (![context save:&error]) {
+	if (![context performSelector:@selector(save:) withObject:(id)&error]) {
 		NSLog(@"No pudo guardar: %@", error);
 	}
 	

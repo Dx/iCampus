@@ -32,7 +32,7 @@
 	}
 	else {
 		DaysListViewController *daysViewController = (DaysListViewController *) [self topViewController];
-		NSArray *campusDays = [NSArray arrayWithObjects: @"Martes 10", @"Miércoles 11", @"Jueves 12", @"Viernes 13", @"Sabado 14", @"Domingo 15" ,nil];	
+		NSArray *campusDays = [NSArray arrayWithObjects: @"Martes 19", @"Miércoles 20", @"Jueves 21", @"Viernes 22", @"Sabado 23", nil];	
 		daysViewController.days = campusDays;
 		loaded = NO;
 	}
@@ -59,8 +59,8 @@
     
     switch (day) {
         case 0:
-            fromDate = [[NSDate alloc] initWithString:@"2011-06-28 00:00:00 -0500"];
-            toDate = [[NSDate alloc] initWithString:@"2011-06-28 23:59:00 -0500"];
+            fromDate = [[NSDate alloc] initWithString:@"2011-07-19 00:00:00 -0500"];
+            toDate = [[NSDate alloc] initWithString:@"2011-07-19 23:59:00 -0500"];
             break;
         case 1:
             fromDate = [[NSDate alloc] initWithString:@"2011-07-20 00:00:00 -0500"];
@@ -77,10 +77,6 @@
         case 4:
             fromDate = [[NSDate alloc] initWithString:@"2011-07-23 00:00:00 -0500"];
             toDate = [[NSDate alloc] initWithString:@"2011-07-23 23:59:00 -0500"];
-            break;
-        case 5:
-            fromDate = [[NSDate alloc] initWithString:@"2011-07-24 00:00:00 -0500"];
-            toDate = [[NSDate alloc] initWithString:@"2011-07-24 23:59:00 -0500"];
             break;
         default:
             break;

@@ -41,7 +41,7 @@
 	CalendarDayView *view = [self view];
 	view.topNavigationController = [self topNavigationController];
 		
-	[[self view] refreshEvents:events];
+	[[self view] performSelector:@selector(refreshEvents:) withObject:events];
 }
 
 - (void)didReceiveMemoryWarning {

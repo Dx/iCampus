@@ -209,7 +209,7 @@
 	if ([self getLastDate] != nil)
 	{
 		NSLog(@"dibuje"); 
-		[[self topNavigationController] refreshEventsWithDate:[self getLastDate]];
+		[[self topNavigationController] performSelector:@selector(refreshEventsWithDate:) withObject:[self getLastDate]];
 	}
 }
 
