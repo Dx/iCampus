@@ -25,9 +25,13 @@
 	if (eventoDetalle != nil)
 	{
 		NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
-		[outputFormatter setDateFormat:@"HH:mm EE d MMM"];
+		[outputFormatter setDateFormat:@"d MMM HH:mm"];
+        
+        NSDateFormatter *outputFinalFormatter = [[NSDateFormatter alloc] init];
+		[outputFinalFormatter setDateFormat:@"HH:mm"];
+        
 		NSString *fechaInicioFormateada = [outputFormatter stringFromDate:eventoDetalle.fechaInicio];
-		NSString *fechaFinFormateada = [outputFormatter stringFromDate:eventoDetalle.fechaFinal];
+		NSString *fechaFinFormateada = [outputFinalFormatter stringFromDate:eventoDetalle.fechaFinal];
 		NSString *horario = [NSString stringWithFormat:@"%@ - %@", 
 							 fechaInicioFormateada, fechaFinFormateada];
 
@@ -37,6 +41,7 @@
 		labelLugar.text = eventoDetalle.lugar;
 		labelCategoria.text = eventoDetalle.categoria;
 		labelPonente.text = eventoDetalle.ponente;
+        labelPonenteDescripcion.text = eventoDetalle.ponenteDesc;
 		labelDescripcion.text = eventoDetalle.descripcion;
 		
 		if ([eventoDetalle.agendado boolValue])

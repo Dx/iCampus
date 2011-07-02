@@ -17,6 +17,7 @@
 	UILabel *labelCategoria;
 	UILabel *labelPonente;
 	UITextView *labelDescripcion;
+    UITextView *labelPonenteDescripcion;
 	Evento *eventoDetalle;
 	UISwitch *switchAgendado;
 	
@@ -28,6 +29,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *labelCategoria;
 @property (nonatomic, retain) IBOutlet UILabel *labelPonente;
 @property (nonatomic, retain) IBOutlet UITextView *labelDescripcion;
+@property (nonatomic, retain) IBOutlet UITextView *labelPonenteDescripcion;
 @property (nonatomic, retain) IBOutlet UISwitch *switchAgendado;
 
 @property (nonatomic, retain) Evento *eventoDetalle;

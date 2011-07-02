@@ -60,13 +60,17 @@
     Evento *info = [eventsInfo objectAtIndex:indexPath.row];
     
 	NSDateFormatter *outputFormatter = [[NSDateFormatter alloc] init];
-	[outputFormatter setDateFormat:@"EEE dd HH:mm"];
+	[outputFormatter setDateFormat:@"d MMM HH:mm"];
+    
+    NSDateFormatter *outputFinalFormatter = [[NSDateFormatter alloc] init];
+	[outputFinalFormatter setDateFormat:@"HH:mm"];
+    
 	NSString *fechaInicioFormateada = [outputFormatter stringFromDate:info.fechaInicio];
-	NSString *fechaFinFormateada = [outputFormatter stringFromDate:info.fechaFinal];
+	NSString *fechaFinFormateada = [outputFinalFormatter stringFromDate:info.fechaFinal];
 	NSString *horario = [NSString stringWithFormat:@"%@ - %@", 
 						 fechaInicioFormateada, fechaFinFormateada];
 	if ([info.agendado boolValue]){
-		UIImage *image = [UIImage imageNamed:@"agendado.jpeg"];
+		UIImage *image = [UIImage imageNamed:@"agendado.png"];
         cell.imageView.image = image;
 		//cell.imageAgendado.image = image;
 		
