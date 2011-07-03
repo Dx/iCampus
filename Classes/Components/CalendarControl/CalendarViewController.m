@@ -41,7 +41,7 @@
 	// Add subview Day Selector
 	// Set bounds to date
 	NSDate *minDate = [[NSDate alloc] initWithString:@"2011-07-19 00:00:00 -0500"];
-	NSDate *maxDate = [[NSDate alloc] initWithString:@"2010-07-24 00:00:00 -0500"];
+	NSDate *maxDate = [[NSDate alloc] initWithString:@"2011-07-24 00:00:00 -0500"];
 	[daySelectorViewController setMinDate: minDate];
 	[daySelectorViewController setMaxDate: maxDate];
 	daySelectorViewController.topNavigationController = [self navigationController];

@@ -32,7 +32,7 @@
 	}
 	else {
 		DaysListViewController *daysViewController = (DaysListViewController *) [self topViewController];
-		NSArray *campusDays = [NSArray arrayWithObjects: @"Martes 19", @"Miércoles 20", @"Jueves 21", @"Viernes 22", @"Sabado 23", nil];	
+		NSArray *campusDays = [NSArray arrayWithObjects: @"Martes 19 de julio", @"Miércoles 20 de julio", @"Jueves 21 de julio", @"Viernes 22 de julio", @"Sabado 23 de julio", nil];	
 		daysViewController.days = campusDays;
 		loaded = NO;
 	}

@@ -12,8 +12,10 @@
 @interface DaysListViewController : UITableViewController {
 
 	NSArray *days;
-	
+	UIImageView *imageView;
 }
 
 @property (nonatomic, retain) NSArray *days;
+@property (nonatomic, retain) IBOutlet UIImageView *imageView;
+
 @end
