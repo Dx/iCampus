@@ -40,9 +40,16 @@
 		labelHorario.text = horario;
 		labelLugar.text = eventoDetalle.lugar;
 		labelCategoria.text = eventoDetalle.categoria;
-		labelPonente.text = eventoDetalle.ponente;
+        labelDescripcion.text = eventoDetalle.descripcion;
+        labelPonente.text = eventoDetalle.ponente;
         labelPonenteDescripcion.text = eventoDetalle.ponenteDesc;
-		labelDescripcion.text = eventoDetalle.descripcion;
+        if ([eventoDetalle.ponenteDesc length] == 0)
+        {
+            labelPonente.hidden = TRUE;
+            labelPonenteDescripcion.hidden = TRUE;
+        }
+        
+		
 		
 		if ([eventoDetalle.agendado boolValue])
 		{

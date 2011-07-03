@@ -80,11 +80,11 @@
 		//cell.imageAgendado.image = nil;
 	}
 
-	
     cell.textLabel.text = info.nombre;
     cell.detailTextLabel.text = horario; 
-	cell.textLabel.numberOfLines = 2;
-	cell.textLabel.font = [UIFont boldSystemFontOfSize:16];
+    cell.detailTextLabel.font = [UIFont boldSystemFontOfSize:12];
+	cell.textLabel.numberOfLines = 3;
+	cell.textLabel.font = [UIFont boldSystemFontOfSize:14];
     
     //cell.eventNombre.text = info.nombre;    
     //cell.eventHorario.text = horario;
@@ -117,7 +117,7 @@
 		return 90;
 	}
 	else {
-		return 60;
+		return 90;
 	}
 }
 
