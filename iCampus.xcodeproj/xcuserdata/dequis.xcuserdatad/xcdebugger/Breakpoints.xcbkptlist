@@ -30,31 +30,17 @@
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "1"
-         filePath = "Classes/Components/CalendarControl/DaySelector/DaySelectorViewController.m"
-         timestampString = "331244765.403588"
+         filePath = "Classes/Components/CalendarControl/DayView/DayEventView.m"
+         timestampString = "331598220.803367"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "80"
-         endingLineNumber = "80"
-         landmarkName = "-viewDidLoad"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "Classes/EventDetail.m"
-         timestampString = "331352883.469843"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "43"
-         endingLineNumber = "43"
-         landmarkName = "-viewDidLoad"
+         startingLineNumber = "165"
+         endingLineNumber = "165"
+         landmarkName = "-changeTextName:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

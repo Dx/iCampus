@@ -76,7 +76,46 @@
     CGContextClosePath(c);  
 	CGContextSetLineWidth(context, 0.5);
 	CGContextSetRGBStrokeColor(context, 0, 0, 0, 1);
-	CGContextSetRGBFillColor(context, (float)(random()%10)/10, (float)(random()%10)/10, (float)(random()%10)/10, 1);
+    
+    int colorOpcion = random()%10;
+    float red = 0.0;
+    float green = 0.0;
+    float blue = 0.0;
+    
+    if (colorOpcion >= 0 && colorOpcion < 3)
+    {
+        red = 0.325;
+        green = 0.686;
+        blue = 0.196;
+    }
+    else
+    {
+        if (colorOpcion >= 3 && colorOpcion < 5)
+        {
+            red = 0.945;
+            green = 0.549;
+            blue = 0.0;    
+        }
+        else
+        {
+            if (colorOpcion >= 5 && colorOpcion < 7)
+            {
+                red = 0.937;
+                green = 0.55;
+                blue = 0.514;    
+            }
+            else
+            {
+                red = 0.0;
+                green = 0.60;
+                blue = 0.100;
+            }
+        }
+    }
+    
+    CGContextSetRGBFillColor(context, red, green, blue, 1);    
+    
+//	CGContextSetRGBFillColor(context, (float)(random()%10)/10, (float)(random()%10)/10, (float)(random()%10)/10, 1);
 	CGContextDrawPath(context, kCGPathFillStroke);
 		
 	// Text
@@ -90,9 +129,40 @@
 	
 	CGContextSetTextDrawingMode (context, kCGTextFillStroke); 
 	CGContextSetCharacterSpacing (context, 0.3); 
-	CGContextSetRGBFillColor (context, 1, 1, 1, 1); 
-    CGContextSetRGBStrokeColor (context, 1, 1, 1, 1); 
-	CGContextShowTextAtPoint (context, 5, boundClientArea.size.height-8-5, [[self name] UTF8String], [[self name] length]); 
+	CGContextSetRGBFillColor (context, 0, 0, 0, 1); 
+    CGContextSetRGBStrokeColor (context, 0, 0, 0, 1); 
+    
+    NSString *nameFormatted = @"";
+    nameFormatted = [self changeTextName:[self name]];
+	CGContextShowTextAtPoint (context, 5, boundClientArea.size.height-8-5, [nameFormatted UTF8String], [nameFormatted length]); 
+}
+
+
+-(NSString*) changeTextName:(NSString*)name
+{
+    NSString *result = @"";
+    NSString *astro = @"Astronomía y Espacio";
+    NSString *music = @"Música";
+    NSString *robot = @"Robótica";
+    
+    if ([name isEqualToString:astro])
+    {
+        result = @"Astronomia y Espacio";
+    }
+    if ([name isEqualToString:music])         
+    {
+        result = @"Musica";
+    } 
+    if ([name isEqualToString:robot])
+    {
+        result = @"Robotica";
+    }
+    if (result == @"")
+    {
+        result = name;
+    }
+    
+    return result;
 }
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event	

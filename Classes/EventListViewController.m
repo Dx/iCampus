@@ -92,8 +92,8 @@
 		topLabel.tag = TOP_LABEL_TAG;
         topLabel.numberOfLines = 3;
 		topLabel.backgroundColor = [UIColor clearColor];
-		topLabel.textColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0];
-		topLabel.highlightedTextColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1.0];
+		topLabel.textColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
+		topLabel.highlightedTextColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0];
 		topLabel.font = [UIFont boldSystemFontOfSize:14];
         
 		//
@@ -103,7 +103,7 @@
         [[[UILabel alloc]
           initWithFrame:
           CGRectMake(
-                     image.size.width + 10.0 * cell.indentationWidth,
+                     image.size.width -0.8 * cell.indentationWidth,
                      0.8 * (tableView.rowHeight - 2 * LABEL_HEIGHT) + LABEL_HEIGHT,
                      tableView.bounds.size.width -
                      image.size.width - 4.0 * cell.indentationWidth,
@@ -116,8 +116,8 @@
 		//
 		bottomLabel.tag = BOTTOM_LABEL_TAG;
 		bottomLabel.backgroundColor = [UIColor clearColor];
-		bottomLabel.textColor = [UIColor colorWithRed:0.25 green:0.0 blue:0.0 alpha:1.0];
-		bottomLabel.highlightedTextColor = [UIColor colorWithRed:1.0 green:1.0 blue:0.9 alpha:1.0];
+		bottomLabel.textColor = [UIColor colorWithRed:0.945 green:0.549 blue:0.0 alpha:1.0];
+		bottomLabel.highlightedTextColor = [UIColor colorWithRed:0.945 green:0.549 blue:0.0 alpha:1.0];
 		bottomLabel.font = [UIFont boldSystemFontOfSize:12];
         
 		//
@@ -194,13 +194,7 @@
 -(CGFloat) tableView:(UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *) indexPath
 {
     Evento *info2 = [eventsInfo objectAtIndex:indexPath.row];
-	if (info2.nombre.length > 50)
-	{
-		return 100;
-	}
-	else {
-		return 100;
-	}
+    return 100;
 }
 
 #pragma mark -

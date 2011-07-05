@@ -16,6 +16,7 @@
 @synthesize labelLugar;
 @synthesize labelCategoria;
 @synthesize labelPonente;
+@synthesize labelPonenteDescripcion;
 @synthesize labelDescripcion;
 @synthesize switchAgendado;
 @synthesize eventoDetalle;

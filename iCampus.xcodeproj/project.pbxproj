@@ -46,12 +46,13 @@
 		6D5521C413C044DE00890E43 /* topAndBottomRowSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5521C213C044DE00890E43 /* topAndBottomRowSelected.png */; };
 		6D5521C513C044DE00890E43 /* topAndBottomRow.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5521C313C044DE00890E43 /* topAndBottomRow.png */; };
 		6D5521C713C0458F00890E43 /* indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5521C613C0458F00890E43 /* indicator.png */; };
+		6D6B9A3013C2838E00640B1C /* topAndBottomRowSelectedc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6B9A2E13C2838E00640B1C /* topAndBottomRowSelectedc.png */; };
+		6D6B9A3113C2838E00640B1C /* topAndBottomRowc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6B9A2F13C2838E00640B1C /* topAndBottomRowc.png */; };
 		6D927408120E88410052B4A2 /* largeIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D927406120E88410052B4A2 /* largeIcon3.png */; };
 		6D927409120E88410052B4A2 /* smallIcon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D927407120E88410052B4A2 /* smallIcon3.png */; };
 		6DDED3C51206823000346F57 /* category.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDED3C21206823000346F57 /* category.png */; };
 		6DDED3C61206823000346F57 /* MyEvents.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDED3C31206823000346F57 /* MyEvents.png */; };
 		6DDED3C71206823000346F57 /* stage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DDED3C41206823000346F57 /* stage.png */; };
-		6DEB614E12067B6F00EE6C1C /* agendado.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6DEB614D12067B6F00EE6C1C /* agendado.jpeg */; };
 		6DF9CF4B1201235900F5DC84 /* DaysListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF9CF491201235900F5DC84 /* DaysListViewController.m */; };
 		6DF9CF4C1201235900F5DC84 /* DaysListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DF9CF4A1201235900F5DC84 /* DaysListViewController.xib */; };
 		6DF9FACA11F3845A00F90ECA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DF9FAC911F3845A00F90ECA /* CoreData.framework */; };
@@ -118,12 +119,13 @@
 		6D5521C213C044DE00890E43 /* topAndBottomRowSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topAndBottomRowSelected.png; sourceTree = "<group>"; };
 		6D5521C313C044DE00890E43 /* topAndBottomRow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topAndBottomRow.png; sourceTree = "<group>"; };
 		6D5521C613C0458F00890E43 /* indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indicator.png; sourceTree = "<group>"; };
+		6D6B9A2E13C2838E00640B1C /* topAndBottomRowSelectedc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topAndBottomRowSelectedc.png; sourceTree = "<group>"; };
+		6D6B9A2F13C2838E00640B1C /* topAndBottomRowc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topAndBottomRowc.png; sourceTree = "<group>"; };
 		6D927406120E88410052B4A2 /* largeIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = largeIcon3.png; sourceTree = "<group>"; };
 		6D927407120E88410052B4A2 /* smallIcon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallIcon3.png; sourceTree = "<group>"; };
 		6DDED3C21206823000346F57 /* category.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = category.png; sourceTree = "<group>"; };
 		6DDED3C31206823000346F57 /* MyEvents.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyEvents.png; sourceTree = "<group>"; };
 		6DDED3C41206823000346F57 /* stage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage.png; sourceTree = "<group>"; };
-		6DEB614D12067B6F00EE6C1C /* agendado.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = agendado.jpeg; sourceTree = "<group>"; };
 		6DF9CF481201235900F5DC84 /* DaysListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysListViewController.h; sourceTree = "<group>"; };
 		6DF9CF491201235900F5DC84 /* DaysListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysListViewController.m; sourceTree = "<group>"; };
 		6DF9CF4A1201235900F5DC84 /* DaysListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DaysListViewController.xib; path = Classes/DaysListViewController.xib; sourceTree = "<group>"; };
@@ -178,6 +180,8 @@
 		1F188B5111FFD3C80066D797 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6D6B9A2E13C2838E00640B1C /* topAndBottomRowSelectedc.png */,
+				6D6B9A2F13C2838E00640B1C /* topAndBottomRowc.png */,
 				6D5521C613C0458F00890E43 /* indicator.png */,
 				6D5521C213C044DE00890E43 /* topAndBottomRowSelected.png */,
 				6D5521C313C044DE00890E43 /* topAndBottomRow.png */,
@@ -187,7 +191,6 @@
 				6DDED3C21206823000346F57 /* category.png */,
 				6DDED3C31206823000346F57 /* MyEvents.png */,
 				6DDED3C41206823000346F57 /* stage.png */,
-				6DEB614D12067B6F00EE6C1C /* agendado.jpeg */,
 				1F188B6011FFD5060066D797 /* left_arrow.png */,
 				1F188B6111FFD5060066D797 /* right_arrow.png */,
 				1F188B5911FFD4490066D797 /* events.png */,
@@ -485,7 +488,6 @@
 				6D0964E71203A48A00EBDF91 /* CategoryNavigationController.xib in Resources */,
 				6D0965771203B4E000EBDF91 /* PlaceNavigationController.xib in Resources */,
 				6D09657F1203B57300EBDF91 /* PlacesListViewController.xib in Resources */,
-				6DEB614E12067B6F00EE6C1C /* agendado.jpeg in Resources */,
 				6DDED3C51206823000346F57 /* category.png in Resources */,
 				6DDED3C61206823000346F57 /* MyEvents.png in Resources */,
 				6DDED3C71206823000346F57 /* stage.png in Resources */,
@@ -495,6 +497,8 @@
 				6D5521C413C044DE00890E43 /* topAndBottomRowSelected.png in Resources */,
 				6D5521C513C044DE00890E43 /* topAndBottomRow.png in Resources */,
 				6D5521C713C0458F00890E43 /* indicator.png in Resources */,
+				6D6B9A3013C2838E00640B1C /* topAndBottomRowSelectedc.png in Resources */,
+				6D6B9A3113C2838E00640B1C /* topAndBottomRowc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

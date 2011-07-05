@@ -26,4 +26,6 @@
 
 - (void) drawEventOnContext:(CGContextRef)context;
 
+-(NSString*) changeTextName:(NSString*)name;
+
 @end

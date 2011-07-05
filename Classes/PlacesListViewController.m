@@ -56,7 +56,7 @@
           initWithFrame:
           CGRectMake(
                      2.0 * cell.indentationWidth,
-                     0.6 * (tableView.rowHeight - 2 * LABEL_HEIGHT),
+                     0.8 * (tableView.rowHeight - 2 * LABEL_HEIGHT),
                      tableView.bounds.size.width -
                      0 - 4.0 * cell.indentationWidth,
                      LABEL_HEIGHT)]
@@ -68,7 +68,7 @@
 		//
 		topLabel.tag = TOP_LABEL_TAG;
 		topLabel.backgroundColor = [UIColor clearColor];
-		topLabel.textColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:1.0];
+		topLabel.textColor = [UIColor colorWithRed:1.0 green:1.0 blue:1.0 alpha:1.0];
 		topLabel.highlightedTextColor = [UIColor colorWithRed:0.5 green:0.5 blue:0.5 alpha:1.0];
 		topLabel.font = [UIFont systemFontOfSize:[UIFont labelFontSize]];
         
@@ -116,8 +116,8 @@
     
     UIImage *rowBackground;
 	UIImage *selectionBackground;
-	rowBackground = [UIImage imageNamed:@"topAndBottomRow.png"];
-	selectionBackground = [UIImage imageNamed:@"topAndBottomRowSelected.png"];
+	rowBackground = [UIImage imageNamed:@"topAndBottomRowc.png"];
+	selectionBackground = [UIImage imageNamed:@"topAndBottomRowSelectedc.png"];
     ((UIImageView *)cell.backgroundView).image = rowBackground;
 	((UIImageView *)cell.selectedBackgroundView).image = selectionBackground;
     
@@ -149,7 +149,7 @@
 - (void)viewDidLoad
 {
     [self tableView].separatorStyle = UITableViewCellSeparatorStyleNone;
-	[self tableView].rowHeight = 100;
+	[self tableView].rowHeight = 68;
 	[self tableView].backgroundColor = [UIColor blackColor];
 }
 

@@ -25,7 +25,7 @@
 	evento.nombre = @"Jingles publicitarios: arte vs. hambre";
 	evento.lugar = @"Escenario de Música";
 	evento.ponente = @"Martin Thulin";
-    evento.ponenteDesc = @"Productor de mas de 20 álbumes para artistas como Jessy Bulbo,␣Bam Bam, Silverio, Los Fancy Free, Nos LLamamos, Los Super Elegantes. Ha hecho la musica para películas, con títulos como 'Te presento a Laura' y '40 Días'. Además de una incontable cantidad de jingles.";
+    evento.ponenteDesc = @"Productor de más de 20 álbumes para artistas como Jessy Bulbo,␣Bam Bam, Silverio, Los Fancy Free, Nos LLamamos, Los Super Elegantes. Ha hecho la musica para películas, con títulos como 'Te presento a Laura' y '40 Días'. Además de una incontable cantidad de jingles.";
 	evento.descripcion = @"El jingle: Esa corta y pegajosa melodía que contienen los comerciales, que se nos queda impregnada en la cabeza como tatuaje y es casi␣imposible olvidar. Se dice que la gran mayoría de los músicos lo hacen por amor al arte, pero el amor al arte no paga la renta. Ven a esta␣conferencia con Martin Thulin y entérate como el mundo del jingle le␣permite seguir siendo artista y no morir de hambre.";
 	evento.agendado = false;
     
@@ -1840,6 +1840,297 @@
 	evento.ponente = @"";
     evento.ponenteDesc = @"";
 	evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 00:00:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 00:30:00 -0500"];
+    evento.nombre = @"Overclocking Extremo";
+    evento.lugar = @"Escenario de Hardware y modding";
+    evento.categoria = @"Hardware y Modding";
+    evento.descripcion = @"Una vez más invitamos a los grandes profesionales del overclocking a romper barreras durante Campus Party. Aprende cómo los expertos aplican técnicas de refrigeración extrema sobre hardware y cómo logran sacar puntajes asombrosos.";
+    evento.ponente = @"";
+    evento.ponenteDesc = @"";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 10:00:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 11:00:00 -0500"];
+    evento.nombre = @"Conferencia: Paisajes Sonoros y ecología acústica";
+    evento.lugar = @"Escenario de Música";
+    evento.categoria = @"Música";
+    evento.descripcion = @"Cuando contemplamos un paisaje visual, lo percibimos desde afuera. En cambio en un paisaje sonoro estamos adentro de él, en el centro, es inclusivo. Esta experiencia es generada por todo lo que se mueve a nuestro alrededor. Esto elementos oscilan a más de 20 ciclos por segundo para estar en el rango de la percepción humana, esto es lo que apreciamos como sonido. Está en todo el mundo y en todo momento.";
+    evento.ponente = @"David Lobato";
+    evento.ponenteDesc = @"Egresado de la maestría en innovación para el desarrollo empresarial por el ITESM. Funge como docente en el Centro Mexicano para la Música y Artes Sonoras (CMMAS). Es Director fundador de AudioLab, Estudio de Producción y Diseño Sonoro, dónde realizamos investigaciones y proyectos, relacionados con el aprendizaje y contacto con nuevas tecnologías auditivas.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 10:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 12:30:00 -0500"];
+    evento.nombre = @"Taller: Arduino Challenge";
+    evento.lugar = @"Escenario de Hardware y modding";
+    evento.categoria = @"Hardware y Modding";
+    evento.descripcion = @"Arduino ha causado una gran revolución entre los amantes del DIY (Do It  Yourself), haciendo que implementar proyectos que antes costaban y tardaban demasiado por su electrónica compleja, hoy sean fácil de construir y sólo lleve unas sencillas líneas de código. En Campus tendrás un gran desafío, no importa si eres novato o usuario avanzado de esta plataforma. Las reglas y condiciones serán publicadas una semana antes del evento. Requisitos: Conocimientos en programación y electrónica. Trae tu equipo para programar.";
+    evento.ponente = @"Eduardo Castañeda";
+    evento.ponenteDesc = @"Emprende su formación como creador multidisciplinario desde hace 29 años. Ampliando su experiencia a través de diferentes ramas como la programación, el 3D, la producción de música, video, la electrónica, la seguridad, los videojuegos y otras. Actualmente trabaja creando plataformas de desarrollo para uso de otros creadores, e interfaces de usuario alternativas. Es miembro del Laboratorio de Energía y escritor sobre el negocio de la música y temas de alta dirección.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 10:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 12:30:00 -0500"];
+    evento.nombre = @"Taller: Desarrollando Aplicaciones Móviles con Titanium Appcelerator";
+    evento.lugar = @"Escenario de Desarrollo de software";
+    evento.categoria = @"Desarrollo de Software";
+    evento.descripcion = @"En este taller veremos la arquitectura de Titanium Appcelerator, aprenderemos a crear nuevas apps compatibles con dispositivos iOS y Android de una manera muy sencilla. ¡Asiste y comienza a crear aplicaciones usando framework Titanium!";
+    evento.ponente = @"Mauro Parra";
+    evento.ponenteDesc = @"Arquitecto de aplicaciones móviles para diferentes empresas, incluyendo la suya. Se especializa en el desarrollo de aplicaciones web y móvies, en linux y en seguridad cibernética. Es embajador de OpenSuse.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 10:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 12:30:00 -0500"];
+    evento.nombre = @"Taller: LEGO, tan flexible como tu imaginación con TETRIX";
+    evento.lugar = @"Escenario de Robótica";
+    evento.categoria = @"Robótica";
+    evento.descripcion = @"¿Recuerdas esos bloques de plástico que te hacían soñar por su facilidad de unirse? Ahora podrán armar y programar el Robot TETRIX, el cual les permitirá conocer la nueva plataforma de trabajo de LEGO NXT con piezas metálicas, así como su parte de automatización vía programación con lenguaje C. Adáptalo a tus propias necesidades.";
+    evento.ponente = @"Luis Iván Estrada";
+    evento.ponenteDesc = @"Ing. Mecatrónico, egresado de la UVM, participante en eventos de Robótica a nivel nacional como juez o tallerista(concurso Mexicano de Robótica, Nacional de Minirobótica, Concursos institucionales First LEGO League), participante en concursos de Robotica como estudiante, Instructor de LEGO con experiencia de 3 Años.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 10:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 12:30:00 -0500"];
+    evento.nombre = @"Taller: Mi primer cortometraje en stop motion";
+    evento.lugar = @"Escenario Artes Visuales";
+    evento.categoria = @"Artes Visuales";
+    evento.descripcion = @"Desde hace 100 años el Stop Motion nos ha cautivado. Cuadro por cuadro somos testigos de una de las técnicas más precisas de hacer cine y video. Desde la pre-producción hasta tener tu corto listo para la proyección. Punto por punto aprenderás los pasos necesarios, las herramientas y los secretos para crear tu primer cortometraje en 'StopMotion'.";
+    evento.ponente = @"Esteba Azuela";
+    evento.ponenteDesc = @"Tiene una adicción por la imagen en movimiento que lo involucra desde el 2001 en animaciones, cine, fotografía, instalaciones de video y plástica bidimensional. Estudió Fotografía en la Academia de Artes Visuales y Animación Tradicional en la VFS, Canadá. Su trabajo se ha expuesto en festivales y galerías en más de 10 países. Trabaja en Viumasters, un colectivo de arte visual en movimiento www.viumasters.com";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 10:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 11:30:00 -0500"];
+    evento.nombre = @"Taller: Migración VBA a OOoBasic";
+    evento.lugar = @"Escenario Cultura Libre";
+    evento.categoria = @"Cultura Libre";
+    evento.descripcion = @"¿Realmente es tan difícil migrar de software propietario a libre? ¿Qué pasa con mis macros VBA de Excel? En este taller aprenderemos a hacer esa migración sin perder ni el más mínimo detalle de nuestras bases de datos.";
+    evento.ponente = @"Mauricio Baeza";
+    evento.ponenteDesc = @"Programador autodidacta desde hace 17 años. Experto en programación con OpenOffice/LibreOffice. Usuario,  promotor y desarrollador de software libre. Fundador y director de Universo Libre, A.C., asociación civil que da soporte técnico a instituciones no lucrativas.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 10:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 12:30:00 -0500"];
+    evento.nombre = @"Taller: Pentest - El Arte de la Guerra";
+    evento.lugar = @"Escenario de Seguridad y redes";
+    evento.categoria = @"Seguridad y Redes";
+    evento.descripcion = @"Pentest es un método de evaluación de seguridad para redes y sistemas  computacionales. En este taller haremos un paseo rápido del camino a seguir, cuando se ejerce una prueba de penetración para una empresa y los principales detalles a tomar en cuenta. Además, conocerás el esquema básico de un pentest y ¡realizarás una evaluación rápida de  seguridad!";
+    evento.ponente = @"Luis Cortés";
+    evento.ponenteDesc = @"Experimentado consultor de seguridad que ha participado y asesorado en distintas instituciones tanto como financieras como gubernamentales, ha sido invitado a diferentes medios de comunicación, participó en Microsoft para resolver diferentes  vulnerabilidades, ha sido participe de diferentes conferencias nacionales e internacionales. Su trabajo ha sido reconocido en la publicación de varios libros de la serie Marquis Who's Who. Vicente Peréz. Investigador de seguridad reconocido en el campo por sus desarrollos en detección de malware, ha publicado diversas vulnerabilidades para sistemas como LatinChat y Piugame CMS, Actualmente trabaja dando asesoría en pruebas de penetración y seguridad lógica en distintas empresas.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 11:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 12:30:00 -0500"];
+    evento.nombre = @"Conferencia: Astronomia Cultural";
+    evento.lugar = @"Escenario de Astronomía y espacio";
+    evento.categoria = @"Astronomía y Espacio";
+    evento.descripcion = @"¿Sabías que las constelaciones no son las mismas para todas las culturas? Desde la Antigüedad, varios pueblos se han encantado con el cielo y lo han estudiado por las más diversas razones, desde las religiosas hasta las prácticas, como la agricultura. Conoce las  diferentes interpretaciones de los astros hechas por varias sociedades a lo largo de la historia.";
+    evento.ponente = @"Ernesto Juárez Davis";
+    evento.ponenteDesc = @"Ingeniero aeronáutico y astrónomo. Trabajó en la aviación comercial por treinta años. Es profesor de astronomía, física y matemáticas. Es director del  planetario móvil 'Juárez Davis' y asesor técnico en astronomía del Papalote Museo del Niño. Además ha coordinado grupos astronómicos en la 'Noche de las estrellas'.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 14:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 15:30:00 -0500"];
+    evento.nombre = @"Conferencia: BCI - Interfaz Cerebro-Computadora";
+    evento.lugar = @"Escenario de Robótica";
+    evento.categoria = @"Robótica";
+    evento.descripcion = @"Comunicarse mentalmente con las máquinas -manejarlas sin mover un dedo- ha sido uno de los sueños de la ciencia ficción. El estudio de la interfaz cerebro-computadora (BCI, por su siglas en inglés) intenta enseñarle a los robots nuevas habilidades a través de señales cerebrales. Conoce en ésta conferencia los avances de ésta área.";
+    evento.ponente = @"Miguel Angel Piedra";
+    evento.ponenteDesc = @"Gerente de Ingeniería en una casa de diseño mexicana donde realizó varios proyectos de automatización, control, robótica y biónica. Cofundador de sitios electrónicos, enfocados a la robótica dónde se impulsa el desarrollo de proyectos de ingeniería y patentes en México. Consejero técnico de la de la Facultad de Estudios Superiores Aragón.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 14:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 15:30:00 -0500"];
+    evento.nombre = @"Conferencia: La revolución de la geolocalización";
+    evento.lugar = @"Escenario de Desarrollo de software";
+    evento.categoria = @"Desarrollo de Software";
+    evento.descripcion = @"Las aplicaciones de geolocalización llegaron para quedarse. API's como  Foursquare, Facebook Places, Google Latitud, Gowalla entre muchas otras, nos dan una nueva perspectiva de comunicación. En esta conferencia entenderás como funcionan las aplicaciones que están revolucionando nuestras vidas.";
+    evento.ponente = @"Enrique Guzmán";
+    evento.ponenteDesc = @"Dieciocho años de experiencia en desarrollo de aplicaciones para organizaciones AAA y gobierno. Adoptó la tecnología .Net desde sus inicios, además de contar con conocimiento y experiencia en Java, SAP, Móviles y PKI. Fundador e integrador de la primera empresa de rastreo vehicular (AVL) mexicana con equipo y aplicaciones AVL propias.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 14:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 15:30:00 -0500"];
+    evento.nombre = @"Conferencia: Viajes en el tiempo";
+    evento.lugar = @"Escenario de Astronomía y espacio";
+    evento.categoria = @"Astronomía y Espacio";
+    evento.descripcion = @"Teoría de la relatividad, paradojas, universos paralelos, condensador de flujo y agujeros de gusano, entre muchos otros, son conceptos relacionados a los viajes en el tiempo. ¿Serán posibles estos viajes al pasado o al futuro? Compara la visión de los viajes en el tiempo que nos ha dado la ciencia ficción contra la ciencia.";
+    evento.ponente = @"Yaxkin Coronado";
+    evento.ponenteDesc = @"Obtuvo en grado de Maestro en ciencias (Astronomía) en 2009, actualmente es estudiante de doctorado del posgrado en astronomía de la UNAM, especializado en agujeros negros y jets astrofísicos relativistas aplicados a núcleos activos de galaxias, microcuasares, destellos de rayos gamma y cosmología física.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 14:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 16:00:00 -0500"];
+    evento.nombre = @"Mesa Redonda: Los mejores programas para mezclar";
+    evento.lugar = @"Escenario de Música";
+    evento.categoria = @"Música";
+    evento.descripcion = @"Pregunta a DJs cuál es el mejor software para mezclar y prepárate para escuchar muchas respuestas diferentes. Invitamos a profesionales que te contarán sobre sus preferencias de software y te enseñarán a usarlos.";
+    evento.ponente = @"Iván López, Lauro Robles, Jerónimo Puente";
+    evento.ponenteDesc = @"Iván López. Soundspace, dj y productor musical con más de 15 años de experiencia en la escena electrónica mexicana. Promueve el arte desde su faceta artística o como empresario llevando su disquera, BlaqRecords a nivel internacional. Además trabaja para Noiselab e impulsa nuevos talentos. Lauro Robles. Emprendedor y autodidacta en web desde 1999 especializado en la música y la generación de contenido para internet. Seguidor de “Thee Temple Ov Psychic Youth” y la cultura generada alrededor de la música Industrial. Fanático de la red y de las posibilidades DIY que facilitan este medio, no sólo producir sino también dar a conocer lo que se hace. Jerónimo Puente. Es parte del proyecto Signal Deluxe, uno de los proyectos más importantes de música electrónica de México, editando su música en algunos de los sellos más representativos del underground global como Adjunct, FreizeitglaubenBerlin, Thoughtless Music, Trenton, Persona, Revolver y muchos más. Ha presentado su live y dj sets alrededor de Europa en ciudades de Francia, España, Polonia, Suiza, Suecia, etc.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 14:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 16:30:00 -0500"];
+    evento.nombre = @"Taller: Circuit bending";
+    evento.lugar = @"Escenario de Hardware y modding";
+    evento.categoria = @"Hardware y Modding";
+    evento.descripcion = @"Dentro de la música, existe la posibilidad de aprovechar el error como un recurso de composición, intervenir los instrumentos y explorar técnicas nuevas. El resultado es evidente: nuevos instrumentos. En este taller, utilizaremos aparatos de bajo voltaje, para crear bents o hacks que nos ayudarán a encontrar de una manera rápida y contundente los puntos claves para efectuar el “corto circuito en juguetes de bajo voltaje.";
+    evento.ponente = @"Yair López";
+    evento.ponenteDesc = @"Ingeniero en comunicación y multimedia por la Universidad de Guadalajara. Trabaja con imagen fija y en movimiento. Ha realizado distintos paisajes sonoros del país. Su trabajo se ha presentado en España, Brasil y México. En busca de construir discursos que se sustenten a través del error se encontró con el “circuitbending”, impartiendo talleres en Brasil y México. Es becario del Fondo Nacional para la Cultura y las Artes.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 14:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 16:30:00 -0500"];
+    evento.nombre = @"Taller: Principios de videojuegos con Blender 3D";
+    evento.lugar = @"Escenario Cultura Libre";
+    evento.categoria = @"Cultura Libre";
+    evento.descripcion = @"Ya sabemos usar un poco Blender y ahora, ¿Qué sigue? En este taller aprenderemos a crear un videojuego con personajes y ambientes en 3D. Al final terminarás, no sólo con el conocimiento necesario para crear tu primer videojuego, sino con tu primer misión completa.";
+    evento.ponente = @"Claudia Hernández Ascencio";
+    evento.ponenteDesc = @"Miembro fundador y administradora de la comunidad de G-Blender, la comunidad en linea de Blender 3D más grande de habla hispana. Especialista en la creación de personajes 3D. Colaboró en la Tercera Open Movie “Sintel”. Directora de producción de Guanajuato Virtual Multimedia Studios. Ha participado en la realización de producciones para la televisión española y televisión italiana. Octavio Méndez. Se encuentra trabajando activamente en el desarrollo de proyectos para extender los servicios y herramientas para los usuarios de la comunidad online de Blender en español. Nominado en la categoría “Best character animation” en el 2007 Blender Suzanne Awards en Amsterdam. Ha participado en la realización de producciones para la televisión española y televisión italiana.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 14:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 16:30:00 -0500"];
+    evento.nombre = @"Taller: Principios de videojuegos con Blender 3D";
+    evento.lugar = @"Escenario Cultura Libre";
+    evento.categoria = @"Cultura Libre";
+    evento.descripcion = @"Ya sabemos usar un poco Blender y ahora, ¿Qué sigue? En este taller aprenderemos a crear un videojuego con personajes y ambientes en 3D. Al final terminarás, no sólo con el conocimiento necesario para crear tu primer videojuego, sino con tu primer misión completa.";
+    evento.ponente = @"Claudia Hernández Ascencio, Octavio Méndez";
+    evento.ponenteDesc = @"Claudia Hernández Ascencio. Miembro fundador y administradora de la comunidad de G-Blender, la comunidad en linea de Blender 3D más grande de habla hispana. Especialista en la creación de personajes 3D. Colaboró en la Tercera Open Movie “Sintel”. Directora de producción de Guanajuato Virtual Multimedia Studios. Ha participado en la realización de producciones para la televisión española y televisión italiana. Octavio Méndez. Se encuentra trabajando activamente en el desarrollo de proyectos para extender los servicios y herramientas para los usuarios de la comunidad online de Blender en español.Nominado en la categoría “Best character animation” en el 2007 Blender Suzanne Awards en Amsterdam. Ha participado en la realización de producciones para la televisión española y televisión italiana.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 16:00:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 17:00:00 -0500"];
+    evento.nombre = @"Conferencia: De pantallas. Entre la televisión, el cine y la computadora";
+    evento.lugar = @"Escenario Artes Visuales";
+    evento.categoria = @"Artes Visuales";
+    evento.descripcion = @"¿Cuándo interactuamos con el cine y la televisión, desde dónde y cómo lo hacemos? El consumo de producciones audiovisuales se ha visto afectado y beneficiado por el desarrollo de la comunicación en línea. Afectado por la piratería y beneficiado por las nuevas formas de consumo. Ven y aprende sobre la interactividad real que se esta alcanzando en el consumo de productos audiovisuales entre espectadores y producciones por medio de redes sociales y plataformas de publicaciones en linea.";
+    evento.ponente = @"Guillermo Rivero";
+    evento.ponenteDesc = @"VP Creativo Digital  de una prominente productora, The Lift México. Antes de trabajar con una productora digital, fundó proyectos como Pase Usted y Genera. Guillermo vivió en Europa, específicamente en Treviso, Italia donde obtuvo una residencia para ser parte de Fabrica, el centro de comunicación del Grupo Benetton. En Berlin, Alemania participó en el desarrollo de Artfacts.net, su primera relación profesional con servicios en línea, también estudió una maestría en Política Trans- Atlántica. Su licenciatura la estudió en Cholula, Puebla, su tesis abordó el uso de imagen para la generación de identidad nacional. Ha publicado en varias revistas nacionales e internacionales y puede hablar de temas variados que van desde tecnologías de comunicación, medios digitales, arte y del uso de propaganda como arma. Guillermo Rivero puede ser tu amigo.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 16:00:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 17:00:00 -0500"];
+    evento.nombre = @"Conferencia: Integración Continua: aumentar la calidad y reducir el  riesgo no (tan) es difícil";
+    evento.lugar = @"Escenario de Desarrollo de software";
+    evento.categoria = @"Desarrollo de Software";
+    evento.descripcion = @"En los últimos años las prácticas de integración continua han demostrado que es posible mejorar la calidad y reducir el riesgo de un proyecto de software. En esta conferencia aprenderás la importancia de la calidad del código, el rol que juega la integración continua dentro de los llamados 'Ecosistemas de Software' y lo más importante, un resumen de posibles herramientas para que los asistente comiencen a beneficiarse de la metodología de desarrollo.";
+    evento.ponente = @"Isaac Ruíz Guerra";
+    evento.ponenteDesc = @"Programador con diez años de experiencia, se ha desenvuelto como  consultor en proyectos de integración en diversos sectores, principalmente el del ámbito financiero. Su principal lenguaje es java y actualmente se encuentra interesado en el desarrollo de aplicaciones móviles. Uno de sus side proyects es Jarhalla, un buscador de clases y jars en repositorios maven. Actualmente es parte del equipo de TidySlice, empresa de formación y consultoria de software.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 16:00:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 17:00:00 -0500"];
+    evento.nombre = @"Conferencia: Vida Extraterrestre";
+    evento.lugar = @"Escenario de Astronomía y espacio";
+    evento.categoria = @"Astronomía y Espacio";
+    evento.descripcion = @"¿Quieres saber la historia y el desarrollo de la búsqueda de vida extraterrestre, los tipos de organismos que se pueden encontrar en nuestro Sistema Solar y nuestra galaxia o el mismo universo? Analiza los intentos científicos pasados, actuales y futuros, para comunicarse con civilizaciones en nuestra Vía Láctea.";
+    evento.ponente = @"Mario De Leo";
+    evento.ponenteDesc = @"Obtuvo la Licenciatura en Física, la Maestría en Astronomía y estudia el Doctorado en Astrofísica en la UNAM. Fundó y maneja la Sociedad Astronómica de la Fac. de Ciencias UNAM 'NIBIRU' en 2001, la más activa en el rubro a nivel nacional. Ha impartido +100 conferencias de divulgación, de nivel primaria a posgrado. Becado por la Escuela Astrofísica del Vaticano (Italia, 2005), por ALFA/LENAC (estancia de  investigación astrofísica, Francia, 2006) y por la Escuela en Física Enrico Fermi (Italia, 2008).";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 16:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 18:30:00 -0500"];
+    evento.nombre = @"Taller: Traktor";
+    evento.lugar = @"Escenario de Música";
+    evento.categoria = @"Música";
+    evento.descripcion = @"Traktor es uno de los softwares más poderosos para mezclar música. Asiste a este taller y aprenderás los principios de una mezcla a nivel musical, las herramientas que te brinda el programa y a hacer mixes de alta calidad.";
+    evento.ponente = @"Iván López";
+    evento.ponenteDesc = @"Soundspace, dj y productor musical con más de 15 años de experiencia en la escena electrónica mexicana, ha tomado posición de figura representativa de todo un nicho de personas, ya que promueve el arte desde su faceta artística o como empresario llevando su disquera, Blaq Records a nivel internacional, o trabajando para Noiselab e impulsando a nuevos talentos.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 17:00:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 18:30:00 -0500"];
+    evento.nombre = @"Conferencia: Diaspora";
+    evento.lugar = @"Escenario Cultura Libre";
+    evento.categoria = @"Cultura Libre";
+    evento.descripcion = @"Hace un tiempo Facebook, decidió cambiar los términos del contrato de usuarios y quedarse con el derecho a perpetuidad de los contenidos de los miembros de ésta página. Este cambio, les dio la libertad de hacer lo que se quiera con los datos propios de los usuarios (imágenes, sonidos, textos, videos), aún despues de dar de baja su cuenta. Ante tal situación, un grupo de estudiantes universitarios, decidieron crear Diaspora, una red en la que el usuario tuviera los derechos sobre su material. Esta fue lanzada con el apoyo obtenido mediante una campaña en Kickstarter.com -logrando recaudar doscientos mil dólares-. Conoce a los creadores de Diaspora, ellos estarán Campus, para compartir su experiencia con los campuseros. Además de sus conocimientos como programadores y amantes del software libre.";
+    evento.ponente = @"Daniel Grippi e Ilya Zhitomirskiy";
+    evento.ponenteDesc = @"Co-Fundadores del proyecto de Diaspora.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 17:00:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 19:00:00 -0500"];
+    evento.nombre = @"Expo Campus Party";
+    evento.lugar = @"Escenario de Hardware y modding";
+    evento.categoria = @"Hardware y Modding";
+    evento.descripcion = @"Durante toda la semana de Campus, las creaciones más impresionantes estarán en exhibición y sus inventores disponibles para responder preguntas sobre obras. Acércate del área de Hardware y Modding y visítalos. A lo mejor te animas a incursionar por este mundo.";
+    evento.ponente = @"";
+    evento.ponenteDesc = @"";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 17:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 18:30:00 -0500"];
+    evento.nombre = @"Conferencia: Animación y efectos especiales del cortometraje ESKIMAL";
+    evento.lugar = @"Escenario Artes Visuales";
+    evento.categoria = @"Artes Visuales";
+    evento.descripcion = @"Para todo aquel fanático del Stop Motion, tendremos la proyección del  cortometraje 'ESKIMAL' ven y escucha de la voz de sus creadores los tips, trucos, consejos y como fue que este cortometraje cobro vida.";
+    evento.ponente = @"Homero Ramírez Tena.";
+    evento.ponenteDesc = @"Licenciado con Honores en Diseño y Comunicación Visual por la Escuela Nacional de Artes Plásticas de la UNAM, En 2008 es ganador del premio Canal 11 del Consejo Nacional de Diseñadores QUÓRUM XVIII, ese mismo año escribe, dirige y produce ESKIMAL. Durante 2009 recibe el apoyo de TVUNAM para su producción y en 2010 gana el 4to Concurso Nacional para el Apoyo a la Postproducción de Cortometrajes IMCINE/CONACULTA. Se desarrolla principalmente en las áreas de animación y fotografía.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+    
+    evento.fechaInicio = [[NSDate alloc] initWithString:@"2011-07-23 17:30:00 -0500"];
+    evento.fechaFinal = [[NSDate alloc] initWithString:@"2011-07-23 18:30:00 -0500"];
+    evento.nombre = @"Conferencia: Ingeniería social - Explotando vulnerabilidades en humanOS";
+    evento.lugar = @"Escenario de Seguridad y redes";
+    evento.categoria = @"Seguridad y Redes";
+    evento.descripcion = @"La ingeniería social continua siendo un arma con un alto nivel de eficiencia, estas técnicas de manipulación comprometen seriamente la seguridad de cualquier organización. Durante esta presentación podrás ver los casos más utilizados en la actualidad, como la recolección de información del objetivo, interpretación del lenguaje corporal, explotación del erotismo y el acceso a áreas restringidas mediante familiaridad, confianza o generando situaciones hostiles.";
+    evento.ponente = @"Israel García";
+    evento.ponenteDesc = @"Tiene más de 10 años de experiencia en seguridad, diseño y desarrollo de sistemas, gerente de servicios profesionales de la empresa de seguridad informática Rusoft México. Estudió la licenciatura en Ciencias de la Computación en UNAM. Miembro de Mensa Internacional.";
+    evento.agendado = false;
+    
+    evento = [NSEntityDescription insertNewObjectForEntityForName:@"Evento" inManagedObjectContext:context];
+
 	
 	NSError *error;
 	if (![context save:&error]) {
