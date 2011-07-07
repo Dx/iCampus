@@ -77,7 +77,7 @@
 	[labelDate setText:date]; 
 	[date release];
 	
-	[[self topNavigationController] refreshEventsWithDate:[self getCurrentDate]];	
+	[[self topNavigationController] performSelector:@selector(refreshEventsWithDate:) withObject:[self getCurrentDate]];	
 }
 
 - (NSMutableString *)buildDateStringFrom : (NSDate *)date
@@ -157,7 +157,8 @@
 	
 	if (lastDate.description != [self getCurrentDate].description)
 	{
-		[[self topNavigationController] refreshEventsWithDate:[self getCurrentDate]];
+		[[self topNavigationController] performSelector:@selector(refreshEventsWithDate:) withObject:[self getCurrentDate]];
+        
 	}
 }
 
@@ -174,7 +175,7 @@
 	
 	if (lastDate.description != [self getCurrentDate].description)
 	{
-		[[self topNavigationController] refreshEventsWithDate:[self getCurrentDate]];
+		[[self topNavigationController] performSelector:@selector(refreshEventsWithDate:) withObject:[self getCurrentDate]];
 	}
 }
 

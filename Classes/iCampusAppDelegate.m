@@ -111,7 +111,7 @@
 }
 
 - (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController {
-    [viewController popToRootViewControllerAnimated:TRUE];
+    [viewController performSelector:@selector(popToRootViewControllerAnimated:) withObject:(id)TRUE];
         
 //	tabBarController.delegate = [[ViewSwitcherTabbarDelegate alloc]init];
 //    [window addSubview:[tabBarController view]];

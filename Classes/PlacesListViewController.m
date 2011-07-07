@@ -133,7 +133,7 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	[self.navigationController openEventsInPlace:indexPath.row];
+	[self.navigationController performSelector:@selector(openEventsInPlace:) withObject:(id)indexPath.row];
 }
 
 #pragma mark -

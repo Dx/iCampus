@@ -36,10 +36,10 @@
    <ProfileAction
       displayScaleIsEnabled = "NO"
       displayScale = "1.00"
-      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldUseLaunchSchemeArgsEnv = "NO"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release">
+      buildConfiguration = "Distribution">
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -49,13 +49,20 @@
             ReferencedContainer = "container:iCampus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = ""
+            value = ""
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Distribution"
-      customArchiveName = "iCampusRelease"
+      customArchiveName = "iCampusDistribution"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

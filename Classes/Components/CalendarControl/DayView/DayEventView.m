@@ -138,7 +138,7 @@
 }
 
 
--(NSString*) changeTextName:(NSString*)name
+-(NSString*) changeTextName:(NSString*)nam
 {
     NSString *result = @"";
     NSString *astro = @"Astronomía y Espacio";

@@ -191,6 +191,7 @@
 	//[info2 release];
 }
 
+
 -(CGFloat) tableView:(UITableView *) tableView heightForRowAtIndexPath:(NSIndexPath *) indexPath
 {
     Evento *info2 = [eventsInfo objectAtIndex:indexPath.row];
